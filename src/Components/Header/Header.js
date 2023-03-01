@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export function Menu() {
   return (
-    <nav>
+    <nav className="MenuNav">
       <div>
         <h1>Herico</h1>
       </div>
@@ -19,6 +19,11 @@ export function Menu() {
           <Link to="/InCreation">In Creation</Link>
         </li>
       </ul>
+      <div>
+        <a>Linkedin</a>
+        <a>GitHub</a>
+        <a>Curriculum</a>
+      </div>
     </nav>
   );
 }

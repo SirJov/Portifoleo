@@ -1,9 +1,27 @@
-nav {
+.MenuNav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #baa782;
 }
-nav ul {
+
+.MenuNav ul {
   display: flex;
   list-style: none;
   gap: 20px;
+  background-color: rgb(201, 143, 255);
+}
+
+.MenuNav ul li {
+  background-color: #a19070;
+  height: 40px;
+}
+.MenuNav div:first-of-type {
+  background-color: rgb(255, 149, 149);
+  margin-left: 30px;
+}
+.MenuNav div:last-of-type {
+  background-color: rgb(255, 219, 156);
+  margin-right: 30px;
 }
