@@ -10,13 +10,19 @@ export function Menu() {
       </div>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link className="link" to="/">
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/Projects">Projects</Link>
+          <Link className="link" to="/Projects">
+            Projects
+          </Link>
         </li>
         <li>
-          <Link to="/InCreation">In Creation</Link>
+          <Link className="link" to="/InCreation">
+            In Creation
+          </Link>
         </li>
       </ul>
       <div>

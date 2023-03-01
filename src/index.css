@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 0px 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
   background-color: #3b3429;

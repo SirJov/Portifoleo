@@ -4,22 +4,35 @@
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: #baa782;
+  border-radius: 0px 0px 5px 5px;
 }
 
 .MenuNav ul {
   display: flex;
   list-style: none;
-  gap: 20px;
-  background-color: rgb(201, 143, 255);
+  gap: 5px;
+  margin-top: 10px;
 }
 
 .MenuNav ul li {
   background-color: #a19070;
-  height: 40px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #6c604b;
+  border-bottom: none;
+  border-radius: 5px 5px 0px 0px;
 }
+
+.link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
 .MenuNav div:first-of-type {
   background-color: rgb(255, 149, 149);
   margin-left: 30px;
+  height: 40px;
 }
 .MenuNav div:last-of-type {
   background-color: rgb(255, 219, 156);
