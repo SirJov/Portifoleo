@@ -10,17 +10,17 @@ export function Menu() {
       </div>
       <ul>
         <li>
-          <Link className="link" to="/">
+          <Link id="BtnHome" className="link" to="/" onClick={""}>
             Home
           </Link>
         </li>
         <li>
-          <Link className="link" to="/Projects">
+          <Link id="BtnProjects" className="link" to="/Projects" onClick={""}>
             Projects
           </Link>
         </li>
         <li>
-          <Link className="link" to="/InCreation">
+          <Link className="link" to="/InCreation" onClick={""}>
             In Creation
           </Link>
         </li>
