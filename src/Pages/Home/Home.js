@@ -1,9 +1,10 @@
 import React from "react";
+import { HomeMain } from "../../Components/HomeMain/HomeMain";
 
 export function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <section>
+      <HomeMain />
+    </section>
   );
 }

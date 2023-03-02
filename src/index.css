@@ -1,9 +1,12 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0px 5px;
+  padding: 0px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
   background-color: rgb(146, 146, 146);
+}
+#root {
+  padding: 0px 10px;
 }

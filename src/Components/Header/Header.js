@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 
-export function Menu() {
+export function Header() {
   return (
     <nav className="MenuNav">
       <div>
