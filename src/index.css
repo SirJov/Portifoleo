@@ -5,7 +5,10 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
-  background-color: rgb(146, 146, 146);
+  background-image: url("../public/imgs/Wh.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 #root {
   padding: 0px 20px;
