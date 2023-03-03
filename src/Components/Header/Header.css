@@ -7,43 +7,52 @@
   border-radius: 0px 0px 5px 5px;
 }
 
-.MenuNav ul {
+.MenuLeft {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.MenuLeft ul {
   display: flex;
   list-style: none;
   gap: 5px;
-  margin-top: 10px;
+  margin: 20px 0px 0px 10px;
 }
 
-.MenuNav ul li {
-  background-color: #323232;
-  height: 30px;
+.MenuLeft ul li {
   display: flex;
   align-items: end;
-  border: 1px solid #000000;
   border-bottom: none;
-  border-radius: 5px 5px 0px 0px;
-  padding: 0px 5px;
+}
+.MenuNav h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 35px;
 }
 
 .link {
+  font-weight: bold;
+  font-size: 20px;
   display: flex;
   align-items: end;
   text-decoration: none;
   color: rgb(0, 0, 0);
-  background-color: rgb(146, 146, 146);
-  height: 25px;
+  background-color: rgb(181, 181, 181);
+  height: 30px;
   border-radius: 4px 4px 0px 0px;
   border: 1px solid #6c604b;
   border-bottom: none;
+  padding: 0px 10px;
 }
 
-.MenuNav div:first-of-type {
+.MenuRight {
   display: flex;
-  align-items: center;
-  margin-left: 30px;
-  height: 40px;
+  background-color: aquamarine;
+  max-width: 280px;
+  gap: 20px;
+  margin: 0px 50px 0px 30px;
 }
-.MenuNav div:last-of-type {
-  
-  
+.MenuRight a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }

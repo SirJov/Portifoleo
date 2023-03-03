@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export function Header() {
   return (
     <nav className="MenuNav">
-      <div>
+      <div className="MenuLeft">
         <ul>
           <li>
             <Link id="BtnHome" className="link" to="/" onClick={""}>
@@ -23,14 +23,14 @@ export function Header() {
             </Link>
           </li>
         </ul>
-        <div>
-          <h1>Herico de Lima Campos</h1>
-        </div>
       </div>
       <div>
-        <a>Linkedin</a>
-        <a>GitHub</a>
-        <a>Curriculum</a>
+        <h1>Herico de Lima Campos</h1>
+      </div>
+      <div className="MenuRight">
+        <a href="">Linkedin</a>
+        <a href="">GitHub</a>
+        <a href="">Curriculum</a>
       </div>
     </nav>
   );
