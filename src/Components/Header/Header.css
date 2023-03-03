@@ -40,11 +40,10 @@
 .MenuNav div:first-of-type {
   display: flex;
   align-items: center;
-  background-color: rgb(255, 149, 149);
   margin-left: 30px;
   height: 40px;
 }
 .MenuNav div:last-of-type {
-  background-color: rgb(255, 219, 156);
-  margin-right: 30px;
+  
+  
 }

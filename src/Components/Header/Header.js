@@ -6,25 +6,27 @@ export function Header() {
   return (
     <nav className="MenuNav">
       <div>
-        <h1>Herico</h1>
+        <ul>
+          <li>
+            <Link id="BtnHome" className="link" to="/" onClick={""}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link id="BtnProjects" className="link" to="/Projects" onClick={""}>
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link className="link" to="/InCreation" onClick={""}>
+              In Creation
+            </Link>
+          </li>
+        </ul>
+        <div>
+          <h1>Herico de Lima Campos</h1>
+        </div>
       </div>
-      <ul>
-        <li>
-          <Link id="BtnHome" className="link" to="/" onClick={""}>
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link id="BtnProjects" className="link" to="/Projects" onClick={""}>
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link className="link" to="/InCreation" onClick={""}>
-            In Creation
-          </Link>
-        </li>
-      </ul>
       <div>
         <a>Linkedin</a>
         <a>GitHub</a>

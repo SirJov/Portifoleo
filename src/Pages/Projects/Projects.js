@@ -1,9 +1,10 @@
 import React from "react";
+import { ProjectMain } from "../../Components/ProjectsMain/ProjectsMain";
 
 export function Projects() {
   return (
-    <div>
-      <h1>Projetos</h1>
-    </div>
+    <section>
+      <ProjectMain />
+    </section>
   );
 }
