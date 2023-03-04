@@ -29,9 +29,9 @@ export function Header() {
 
   return (
     <>
-      <div className="logo">
+      <header className="logo">
         <h1>Portfolio</h1>
-      </div>
+      </header>
       <nav className="MenuNav">
         <div className="MenuLeft">
           <ul>
@@ -42,7 +42,7 @@ export function Header() {
                 to="/"
                 onClick={() => btnSelected("/")}
               >
-                Home
+                <p>About</p>
               </Link>
             </li>
             <li>
@@ -52,7 +52,7 @@ export function Header() {
                 to="/Projects"
                 onClick={() => btnSelected("/Projects")}
               >
-                Project
+                <p>Projects</p>
               </Link>
             </li>
             <li>
@@ -62,7 +62,7 @@ export function Header() {
                 to="/InCreation"
                 onClick={() => btnSelected("/InCreation")}
               >
-                In Creation
+                <p>In Creation</p>
               </Link>
             </li>
           </ul>
@@ -70,7 +70,7 @@ export function Header() {
 
         <div className="MenuRight">
           <a href="">Linkedin</a>
-          <a href="">GitHub</a>
+          <a href="https://github.com/SirJov">GitHub</a>
           <a href="">Curriculum</a>
         </div>
       </nav>
