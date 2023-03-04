@@ -4,7 +4,7 @@ import { HomeMain } from "../../Components/HomeMain/HomeMain";
 export function Home() {
   return (
     <section>
-      <HomeMain />
+      <HomeMain  />
     </section>
   );
 }

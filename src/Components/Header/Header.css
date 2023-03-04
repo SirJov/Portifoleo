@@ -17,11 +17,6 @@
   margin: 0px 0px 0px 10px;
 }
 
-.MenuLeft ul li {
-  display: flex;
-  align-items: end;
-  border-bottom: none;
-}
 .logo {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 12px;
@@ -37,21 +32,32 @@
   font-weight: bold;
   font-size: 18px;
   display: flex;
-  align-items: end;
+  align-items: center;
   text-decoration: none;
   color: rgb(0, 0, 0);
-  background-color: rgb(181, 181, 181);
+  background-color: rgba(181, 181, 181, 0.758);
   height: 30px;
   border-radius: 4px 4px 0px 0px;
-  border: 2px solid #6c604b;
-  border-bottom: none;
+  border: 2px outset #6c604b;
   padding: 0px 10px;
 }
-#btnSelect {
-  background-color: rgb(241, 178, 126);
-  border: 2px solid #6c604b;
-  border-bottom: none;
-  opacity: 95%;
+#Selected1 {
+  background-color: rgb(190, 242, 248);
+  border: 2px outset #6c604b;
+  border-bottom: 2px solid rgba(255, 235, 205, 0);
+  opacity: 80%;
+}
+#Selected2 {
+  background-color: rgb(249, 234, 212);
+  border: 2px outset #6c604b;
+  border-bottom: 2px solid rgba(255, 235, 205, 0);
+  opacity: 80%;
+}
+#Selected3 {
+  background-color: rgb(217, 255, 219);
+  border: 2px outset #6c604b;
+  border-bottom: 2px solid rgba(255, 235, 205, 0);
+  opacity: 80%;
 }
 
 .MenuRight {

@@ -1,12 +1,12 @@
-.divHome {
+.InCreation {
   margin-top: 50lhç;
   background-color: blue;
   border-radius: 5px 5px 5px 5px;
   height: 500px;
   background-image: linear-gradient(
     0deg,
-    rgb(241, 214, 252),
-    rgb(190, 242, 248)
+    rgb(167, 195, 255),
+    rgb(217, 255, 219)
   );
   opacity: 80%;
 }

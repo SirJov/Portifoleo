@@ -3,6 +3,7 @@ import { Home } from "./Pages/Home/Home.js";
 import { Projects } from "./Pages/Projects/Projects.js";
 import { Header } from "./Components/Header/Header";
 import "./App.css";
+import { Creating } from "./Pages/InCreation/InCreation.js";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Projects" element={<Projects />} />
+        <Route path="/InCreation" element={<Creating />} />
       </Routes>
     </BrowserRouter>
   );

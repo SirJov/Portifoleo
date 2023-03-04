@@ -3,25 +3,26 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 
 export function Header() {
-  const [btn, setBtn] = useState("a");
-  const valueClass = alterClass(btn);
+  const [url, setUrl] = useState();
 
-  function btnSelected(n) {
-    setBtn(n);
-    alterClass(btn);
+  const url_atual = window.location.pathname;
+  const valueClass = ChangeId(url_atual);
+
+  function btnSelected(i) {
+    setUrl(i);
   }
 
-  function alterClass(bt) {
-    if (bt === "a") {
-      const newClass = ["btnSelect", "a", "a"];
+  function ChangeId(url) {
+    if (url === "/") {
+      const newClass = ["Selected1", "NotSelected", "NotSelected"];
       return newClass;
     }
-    if (bt === "b") {
-      const newClass = ["a", "btnSelect", "a"];
+    if (url === "/Projects") {
+      const newClass = ["NotSelected", "Selected2", "NotSelected"];
       return newClass;
     }
-    if (bt === "c") {
-      const newClass = ["a", "a", "btnSelect"];
+    if (url === "/InCreation") {
+      const newClass = ["NotSelected", "NotSelected", "Selected3"];
       return newClass;
     }
   }
@@ -39,7 +40,7 @@ export function Header() {
                 id={valueClass[0]}
                 className="btn"
                 to="/"
-                onClick={() => btnSelected("a")}
+                onClick={() => btnSelected("/")}
               >
                 Home
               </Link>
@@ -49,7 +50,7 @@ export function Header() {
                 id={valueClass[1]}
                 className="btn"
                 to="/Projects"
-                onClick={() => btnSelected("b")}
+                onClick={() => btnSelected("/Projects")}
               >
                 Project
               </Link>
@@ -59,7 +60,7 @@ export function Header() {
                 id={valueClass[2]}
                 className="btn"
                 to="/InCreation"
-                onClick={() => btnSelected("c")}
+                onClick={() => btnSelected("/InCreation")}
               >
                 In Creation
               </Link>

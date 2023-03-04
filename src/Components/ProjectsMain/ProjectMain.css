@@ -5,8 +5,8 @@
   height: 500px;
   background-image: linear-gradient(
     0deg,
-    rgb(255, 255, 255),
-    rgb(241, 178, 126)
+    rgb(210, 254, 231),
+    rgb(249, 234, 212)
   );
-  opacity: 90%;
+  opacity: 80%;
 }
