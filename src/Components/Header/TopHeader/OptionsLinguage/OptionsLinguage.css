@@ -1,0 +1,23 @@
+.OptLin {
+  margin-left: 20px;
+}
+.OptLin div:first-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.OptLin p {
+  font-size: 9px;
+  color: rgb(255, 255, 255);
+}
+.OptLin div:last-of-type {
+  display: flex;
+  gap: 10px;
+}
+.OptLin a {
+  display: flex;
+}
+.OptLin img {
+  height: 12px;
+}

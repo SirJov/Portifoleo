@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import "./Nav.css";
-import { Link } from "react-router-dom";
-import Linkedin from "../../assets/linkedin.png";
-import GitHub from "../../assets/github.png";
-import Download from "../../assets/download.png";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+
+import Linkedin from "../../../assets/linkedin.png";
+import GitHub from "../../../assets/github.png";
+import Download from "../../../assets/download.png";
+
+import "./Nav.css";
 
 export function Nav() {
   const [t, i18n] = useTranslation();
@@ -53,7 +55,7 @@ export function Nav() {
               to="/Projects"
               onClick={() => btnSelected("/Projects")}
             >
-              <p>Projects</p>
+              <p>{t("btnProjects")}</p>
             </Link>
           </li>
           <li>
@@ -63,7 +65,7 @@ export function Nav() {
               to="/InCreation"
               onClick={() => btnSelected("/InCreation")}
             >
-              <p>In Creation</p>
+              <p>{t("btnInCreation")}</p>
             </Link>
           </li>
         </ul>

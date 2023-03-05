@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Header } from "./Components/Header/Logo/Header.js";
-import { Nav } from "./Components/Header/Nav.js";
+import { Header } from "./Components/Header/TopHeader/Header.js";
+import { Nav } from "./Components/Header/Nav/Nav.js";
 import { Home } from "./Pages/Home/Home.js";
 import { Projects } from "./Pages/Projects/Projects.js";
 import { Creating } from "./Pages/InCreation/InCreation.js";

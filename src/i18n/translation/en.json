@@ -1,6 +1,13 @@
 {
   "translation": {
+    "pTranslate": "Language",
+
     "btnAbaut": "About",
-    "a": "bbb"
+    "btnProjects": "Projects",
+    "btnInCreation": "In Creation",
+
+    "Home": "My profile is beautiful",
+    "Projects": "My projects are beautiful",
+    "InCreation": "I'm creating something very beautiful"
   }
 }

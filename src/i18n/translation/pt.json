@@ -1,1 +1,13 @@
-{}
+{
+  "translation": {
+    "pTranslate": "Linguagem",
+
+    "btnAbaut": "Sobre",
+    "btnProjects": "Projectos",
+    "btnInCreation": "Em criaçao",
+
+    "Home": "Funfou no home",
+    "Projects": "Funfou no  projetos",
+    "InCreation": "Funfou no criando"
+  }
+}
