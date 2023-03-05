@@ -6,7 +6,7 @@
   border-radius: 0px 0px 5px 5px;
   height: 40px;
 }
-
+/*_________________________________Menu Left____________________________________*/
 .MenuLeft {
   display: flex;
   align-items: center;
@@ -19,14 +19,13 @@
 }
 
 .btn {
-  font-weight: bold;
-  font-size: 18px;
+  font-size: 13px;
   display: flex;
   align-items: center;
   text-decoration: none;
   color: rgb(255, 255, 255);
   background-color: rgba(48, 48, 48, 0.879);
-  height: 30px;
+  height: 25px;
   border-radius: 4px 4px 0px 0px;
   border: 2px outset #6c604b;
   padding: 0px 5px;
@@ -69,24 +68,65 @@
 
 #NotSelected:hover {
   padding-bottom: 3px;
-  transition: all 0.1s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 #NotSelected p:hover {
-  -webkit-text-stroke-width: 0.4px;
-  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.623);
-  transition: all 0.1s ease-in-out;
-}
-.MenuRight {
-  display: flex;
+  -webkit-text-stroke-width: 0.5px;
 }
 
-.MenuRight a {
-  background-color: rgb(32, 32, 32);
+/*_________________________________Menu right____________________________________*/
+
+.MenuRight ul {
+  display: flex;
+  margin-bottom: 5px;
+}
+.MenuRight ul li {
+  list-style: none;
+  background-color: rgba(32, 32, 32, 0.902);
   border: 2px outset #6c604b;
   border-radius: 5px 5px 5px 5px;
+  margin-right: 10px;
+}
+.la {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-weight: bold;
-  padding: 0px 5px;
-  margin-right: 10px;
+  font-size: 14px;
+  padding: 2px 2px;
+  width: 24px;
+  transition: all 0.2s ease-in-out;
+}
+.la2 {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 14px;
+  padding: 2px 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.la p {
+  transform: scale(0);
+  transition: all 0.1s ease-in-out;
+}
+
+.icon {
+  height: 20px;
+  margin-right: 5px;
+}
+.MenuRight li:hover p {
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+}
+#git:hover .la {
+  width: calc(85px);
+  transition: all 0.1s ease-in-out;
+}
+#ked:hover .la {
+  width: calc(100px);
+  transition: all 0.1s ease-in-out;
 }
