@@ -4,8 +4,10 @@ import { Link } from "react-router-dom";
 import Linkedin from "../../assets/linkedin.png";
 import GitHub from "../../assets/github.png";
 import Download from "../../assets/download.png";
+import { useTranslation } from "react-i18next";
 
 export function Nav() {
+  const [t, i18n] = useTranslation();
   const [url, setUrl] = useState();
 
   const url_atual = window.location.pathname;
@@ -41,7 +43,7 @@ export function Nav() {
               to="/"
               onClick={() => btnSelected("/")}
             >
-              <p>About</p>
+              <p>{t("btnAbaut")}</p>
             </Link>
           </li>
           <li>

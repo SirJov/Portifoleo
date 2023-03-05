@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   border-radius: 0px 0px 5px 5px;
   height: 40px;
+  margin: 0px 0px 0px 20px;
 }
 /*_________________________________Menu Left____________________________________*/
 .MenuLeft {
@@ -78,7 +79,7 @@
 
 .MenuRight ul {
   display: flex;
-  margin-bottom: 5px;
+  margin: 0px 20px 5px 0px;
 }
 .MenuRight ul li {
   list-style: none;

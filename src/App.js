@@ -12,11 +12,13 @@ function App() {
     <BrowserRouter>
       <Header />
       <Nav />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/InCreation" element={<Creating />} />
-      </Routes>
+      <section className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Projects" element={<Projects />} />
+          <Route path="/InCreation" element={<Creating />} />
+        </Routes>
+      </section>
     </BrowserRouter>
   );
 }
