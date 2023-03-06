@@ -1,0 +1,25 @@
+.divHome {
+  border-radius: 5px 5px 5px 5px;
+  height: 500px;
+  background-image: linear-gradient(
+    0deg,
+    rgba(241, 214, 252, 0.692),
+    rgba(190, 242, 248, 0.733)
+  );
+  padding: px;
+}
+.divHome2 {
+  height: 493px;
+  background-image: linear-gradient(0deg, rgba(0, 25, 27, 0.833), rgb(0, 0, 0));
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 100px auto;
+  padding: 10px;
+  border-radius: 3px;
+}
+.Aside {
+  background-color: aliceblue;
+}
+.divHome2 div:first-of-type {
+  background-color: brown;
+}

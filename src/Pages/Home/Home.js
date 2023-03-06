@@ -1,10 +1,10 @@
 import React from "react";
-import { HomeMain } from "../../Components/HomeMain/HomeMain";
+import { AboutMain } from "../../Components/AboutMain/AboutMain.js";
 
 export function Home() {
   return (
     <section>
-      <HomeMain  />
+      <AboutMain />
     </section>
   );
 }
