@@ -5,8 +5,9 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
-  background-image: url("../src/assets/Wh.jpeg");
+  background-image: url("../src/assets/imgFundo1.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: black;
 }

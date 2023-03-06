@@ -31,3 +31,11 @@
   filter: brightness(150%);
   transition: all 0.3 ease-in-out;
 }
+
+/*______________@MEDIA_______________*/
+
+@media (max-width: 520px) {
+  .OptLin {
+    margin: 0px;
+  }
+}

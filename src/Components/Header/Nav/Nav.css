@@ -4,8 +4,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   border-radius: 0px 0px 5px 5px;
-  height: 40px;
-  margin: 0px 0px 0px 20px;
+  margin: 5px 0px 0px 20px;
 }
 /*_________________________________Menu Left____________________________________*/
 .MenuLeft {
@@ -130,4 +129,40 @@
 #ked:hover .la {
   width: calc(100px);
   transition: all 0.1s ease-in-out;
+}
+/*______________@MEDIA_______________*/
+
+@media (max-width: 520px) {
+  .MenuNav {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    border-radius: 0px 0px 5px 5px;
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+  }
+  .MenuLeft ul {
+    margin: 0px 0px 0px 0px;
+  }
+  #git:hover .la {
+    width: 24px;
+    transition: all 0.1s ease-in-out;
+  }
+  #ked:hover .la {
+    width: 24px;
+    transition: all 0.1s ease-in-out;
+  }
+  .MenuRight ul {
+    display: flex;
+    margin: 0px 0px 5px 0px;
+  }
+  #curri {
+    margin: 0px;
+  }
+  #git p {
+    display: none;
+  }
+  #ked p {
+    display: none;
+  }
 }
