@@ -180,4 +180,12 @@
     height: auto;
     padding-bottom: 0px;
   }
+  .MenuLeft ul {
+    align-items: end;
+    height: 20px;
+  }
+  #NotSelected:hover {
+    padding-bottom: 1px;
+    transition: all 0.2s ease-in-out;
+  }
 }
