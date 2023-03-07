@@ -4,6 +4,7 @@ import { Nav } from "./Components/Header/Nav/Nav.js";
 import { Home } from "./Pages/Home/Home.js";
 import { Projects } from "./Pages/Projects/Projects.js";
 import { Creating } from "./Pages/InCreation/InCreation.js";
+import { Footer } from "./Components/Footer/Footer.js";
 
 import "./App.css";
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/InCreation" element={<Creating />} />
         </Routes>
       </section>
+      <Footer />
     </BrowserRouter>
   );
 }
