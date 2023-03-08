@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import iconDark from "../../../../assets/iconDark.webp";
-import iconLigth from "../../../../assets/iconLigth.webp";
+import iconLigth from "../../../../assets/iconLight.webp";
 
 import "./OptionsTheme.css";
 
