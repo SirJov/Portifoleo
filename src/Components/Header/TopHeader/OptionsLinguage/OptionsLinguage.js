@@ -15,10 +15,10 @@ export function OptLin() {
 
   function alterId() {
     if (ling == "en") {
-      return ["notSelected", "Selected"];
+      return ["LinNotSelected", "LinSelected"];
     }
     if (ling == "pt") {
-      return ["Selected", "notSelected"];
+      return ["LinSelected", "LinNotSelected"];
     }
   }
   function selectLenguage(i) {

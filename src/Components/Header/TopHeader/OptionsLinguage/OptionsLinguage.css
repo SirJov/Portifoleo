@@ -22,11 +22,11 @@
   height: 12px;
   transition: all 0.3s ease-in-out;
 }
-#Selected {
+#LinSelected {
   filter: brightness(200%);
   transition: all 0.3 ease-in-out;
 }
-.OptLin a:hover #notSelected {
+.OptLin a:hover #LinNotSelected {
   cursor: pointer;
   filter: brightness(150%);
   transition: all 0.3 ease-in-out;

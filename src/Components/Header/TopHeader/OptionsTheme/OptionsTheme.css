@@ -1,0 +1,46 @@
+.OptTheme {
+  margin-right: 20px;
+}
+.OptTheme div:first-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1px;
+}
+.OptTheme p {
+  font-size: 9px;
+  color: rgb(255, 255, 255);
+}
+.OptTheme div:last-of-type {
+  display: flex;
+  gap: 10px;
+}
+.OptTheme a {
+  display: flex;
+}
+.OptTheme img {
+  height: 18px;
+  transition: all 0.3s ease-in-out;
+}
+#ThemeSelected {
+  filter: brightness(180%);
+  transition: all 0.3 ease-in-out;
+}
+#ThemeNotSelected {
+  filter: brightness(70%);
+}
+
+.OptTheme a:hover #ThemeNotSelected {
+  cursor: pointer;
+
+  filter: brightness(120%);
+  transition: all 0.3 ease-in-out;
+}
+
+/*______________@MEDIA_______________*/
+
+@media (max-width: 600px) {
+  .OptTheme {
+    margin: 0px;
+  }
+}

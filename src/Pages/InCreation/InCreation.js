@@ -3,7 +3,7 @@ import { InCreationMain } from "../../Components/InCreationMain/InCreation";
 export function InCreation() {
   return (
     <section>
-      <InCreation />
+      <InCreationMain />
     </section>
   );
 }

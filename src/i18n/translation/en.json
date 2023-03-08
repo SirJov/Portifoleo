@@ -1,6 +1,7 @@
 {
   "translation": {
     "pTranslate": "Language",
+    "pTheme": "Theme",
 
     "btnAbaut": "About",
     "btnProjects": "Projects",
@@ -11,4 +12,3 @@
     "InCreation": "I'm creating something very beautiful"
   }
 }
- 
