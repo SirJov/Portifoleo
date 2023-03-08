@@ -1,9 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import "./InCreation.css";
+import "./InCreationMain.css";
 
-export function InCreation() {
+export function InCreationMain() {
   const [t] = useTranslation();
   return (
     <div className="InCreation">

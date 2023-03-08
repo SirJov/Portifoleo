@@ -1,6 +1,6 @@
 import React from "react";
-import { InCreation } from "../../Components/InCreation/InCreation";
-export function Creating() {
+import { InCreationMain } from "../../Components/InCreationMain/InCreation";
+export function InCreation() {
   return (
     <section>
       <InCreation />

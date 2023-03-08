@@ -1,7 +1,7 @@
 import React from "react";
 import { AboutMain } from "../../Components/AboutMain/AboutMain.js";
 
-export function Home() {
+export function About() {
   return (
     <section>
       <AboutMain />

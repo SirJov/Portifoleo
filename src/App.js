@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Header } from "./Components/Header/TopHeader/Header.js";
 import { Nav } from "./Components/Header/Nav/Nav.js";
-import { Home } from "./Pages/Home/Home.js";
+import { About } from "./Pages/About/About.js";
 import { Projects } from "./Pages/Projects/Projects.js";
-import { Creating } from "./Pages/InCreation/InCreation.js";
+import { InCreation } from "./Pages/InCreation/InCreation.js";
 import { Footer } from "./Components/Footer/Footer.js";
 
 import "./App.css";
@@ -15,9 +15,9 @@ function App() {
       <Nav />
       <section className="container">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<About />} />
           <Route path="/Projects" element={<Projects />} />
-          <Route path="/InCreation" element={<Creating />} />
+          <Route path="/InCreation" element={<InCreation />} />
         </Routes>
       </section>
       <Footer />
