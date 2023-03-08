@@ -172,14 +172,12 @@
   }
   .btn {
     padding: 0px;
+    height: auto;
   }
   #NotSelected {
     height: auto;
   }
-  #Selected1 {
-    height: auto;
-    padding-bottom: 0px;
-  }
+
   .MenuLeft ul {
     align-items: end;
     height: 20px;
