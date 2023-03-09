@@ -1,0 +1,96 @@
+.MenuLeft {
+  display: flex;
+  align-items: center;
+}
+.MenuLeft ul {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  margin: 0px 0px 0px 10px;
+}
+
+.btn {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgba(48, 48, 48, 0.879);
+  height: 25px;
+  border-radius: 4px 4px 0px 0px;
+  border: 2px outset #6c604b;
+  padding: 0px 5px;
+}
+.btn p {
+  border-radius: 5px 0px 0px 0px;
+  padding: 0px 5px;
+  transition: all 0.1s ease-in-out;
+}
+
+#Selected1 {
+  background-color: rgba(190, 242, 248, 0.801);
+  border: 2px outset #6c604b;
+  border-bottom: 2px solid rgba(255, 235, 205, 0);
+  cursor: default;
+  padding-bottom: 3px;
+  transition: all 0.1s ease-in-out;
+  color: rgb(0, 0, 0);
+}
+
+#Selected2 {
+  background-color: rgba(249, 234, 212, 0.84);
+  border: 2px outset #6c604b;
+  border-bottom: 2px solid rgba(255, 235, 205, 0);
+  cursor: default;
+  padding-bottom: 3px;
+  transition: all 0.1s ease-in-out;
+  color: rgb(0, 0, 0);
+}
+
+#Selected3 {
+  background-color: rgba(217, 255, 219, 0.804);
+  border: 2px outset #6c604b;
+  border-bottom: 2px solid rgba(255, 235, 205, 0);
+  cursor: default;
+  padding-bottom: 3px;
+  transition: all 0.1s ease-in-out;
+  color: rgb(0, 0, 0);
+}
+
+#NotSelected:hover {
+  padding-bottom: 3px;
+  transition: all 0.2s ease-in-out;
+}
+#NotSelected p:hover {
+  -webkit-text-stroke-width: 0.5px;
+}
+
+/*_________________________@MEDIA________________________________*/
+
+@media (max-width: 600px) {
+  .MenuLeft ul {
+    margin: 0px 0px 0px 0px;
+  }
+}
+@media (max-width: 400px) {
+  .MenuLeft p {
+    font-size: 10px;
+  }
+
+  .btn {
+    padding: 0px;
+    height: auto;
+  }
+  #NotSelected {
+    height: auto;
+  }
+
+  .MenuLeft ul {
+    align-items: end;
+    height: 20px;
+  }
+  #NotSelected:hover {
+    padding-bottom: 1px;
+    transition: all 0.2s ease-in-out;
+  }
+}

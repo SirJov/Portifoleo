@@ -1,0 +1,94 @@
+.MenuRight ul {
+  display: flex;
+  margin: 0px 20px 5px 0px;
+}
+.MenuRight ul li {
+  list-style: none;
+  background-color: rgba(32, 32, 32, 0.902);
+  border: 2px outset #6c604b;
+  border-radius: 5px 5px 5px 5px;
+  margin-right: 10px;
+}
+.la {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 14px;
+  padding: 2px 2px;
+  width: 24px;
+  transition: all 0.2s ease-in-out;
+}
+.la2 {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 14px;
+  padding: 2px 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.la p {
+  transform: scale(0);
+  transition: all 0.1s ease-in-out;
+}
+
+.icon {
+  height: 20px;
+  margin-right: 5px;
+}
+.MenuRight li:hover p {
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+}
+#git:hover .la {
+  width: calc(85px);
+  transition: all 0.1s ease-in-out;
+}
+#ked:hover .la {
+  width: calc(100px);
+  transition: all 0.1s ease-in-out;
+}
+
+/*_________________________@MEDIA________________________________*/
+
+@media (max-width: 600px) {
+  #git:hover .la {
+    width: 24px;
+    transition: all 0.1s ease-in-out;
+  }
+  #ked:hover .la {
+    width: 24px;
+    transition: all 0.1s ease-in-out;
+  }
+  .MenuRight ul {
+    display: flex;
+    margin: 0px 0px 5px 0px;
+  }
+  #curri {
+    margin: 0px;
+  }
+  #git p {
+    display: none;
+  }
+  #ked p {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .icon {
+    height: 15px;
+    margin-right: 2px;
+  }
+  .la {
+    font-size: 14px;
+    padding: 2px 2px;
+    width: 20px;
+  }
+  .la2 {
+    font-size: 12px;
+  }
+}
