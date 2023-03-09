@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
+import ConfigTheme from "./configTheme/ConfigTheme.js";
+
 import iconDark from "../../../../assets/iconDark.webp";
 import iconLigth from "../../../../assets/iconLight.webp";
 
@@ -19,32 +21,35 @@ export function OptionsTheme() {
     if (i == "dark") {
       return ["ThemeSelected", "ThemeNotSelected"];
     }
-    if (i == "ligth") {
+    if (i == "light") {
       return ["ThemeNotSelected", "ThemeSelected"];
     }
   }
 
   return (
-    <div className="OptTheme">
-      <div>
-        <p>{t("pTheme")}</p>
+    <>
+      <ConfigTheme Theme={Theme} />
+      <div className="OptTheme">
+        <div>
+          <p>{t("pTheme")}</p>
+        </div>
+        <div>
+          <a>
+            <img
+              id={idTheme[0]}
+              src={iconDark}
+              onClick={() => SetThemeState("dark")}
+            />
+          </a>
+          <a>
+            <img
+              id={idTheme[1]}
+              src={iconLigth}
+              onClick={() => SetThemeState("light")}
+            />
+          </a>
+        </div>
       </div>
-      <div>
-        <a>
-          <img
-            id={idTheme[0]}
-            src={iconDark}
-            onClick={() => SetThemeState("dark")}
-          />
-        </a>
-        <a>
-          <img
-            id={idTheme[1]}
-            src={iconLigth}
-            onClick={() => SetThemeState("ligth")}
-          />
-        </a>
-      </div>
-    </div>
+    </>
   );
 }
