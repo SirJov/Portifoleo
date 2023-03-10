@@ -1,4 +1,4 @@
-.divHome {
+.divAbout {
   border-radius: 5px 5px 5px 5px;
   background-image: linear-gradient(
     0deg,
@@ -7,9 +7,8 @@
   );
   padding: 5px;
 }
-.divHome2 {
+.divAbout2 {
   display: flex;
   padding: 10px;
   border-radius: 4px;
 }
-

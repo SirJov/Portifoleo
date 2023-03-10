@@ -6,8 +6,10 @@ import "./InCreationMain.css";
 export function InCreationMain() {
   const [t] = useTranslation();
   return (
-    <div className="InCreation">
-      <h1>{t("InCreation")}</h1>
+    <div className="divInCreation">
+      <div className="divInCreation2">
+       
+      </div>
     </div>
   );
 }

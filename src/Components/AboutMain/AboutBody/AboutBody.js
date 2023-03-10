@@ -7,9 +7,7 @@ export function AboutBody() {
   const [t] = useTranslation();
   return (
     <div className="AbautBody">
-      <div>
-        <h1>{t("Home")}</h1>
-      </div>
+      
     </div>
   );
 }

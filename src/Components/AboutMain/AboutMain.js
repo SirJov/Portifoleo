@@ -7,8 +7,8 @@ import "./AboutMain.css";
 
 export function AboutMain() {
   return (
-    <div className="divHome">
-      <div className="divHome2">
+    <div className="divAbout">
+      <div className="divAbout2">
         <AsideAbout />
         <AboutBody />
       </div>

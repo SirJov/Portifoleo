@@ -1,12 +1,14 @@
-.InCreation {
-  margin-top: 50lhç;
-  background-color: blue;
+.divInCreation {
   border-radius: 5px 5px 5px 5px;
-  height: 500px;
   background-image: linear-gradient(
     0deg,
-    rgb(167, 195, 255),
-    rgb(217, 255, 219)
+    rgba(200, 217, 254, 0.799),
+    rgba(166, 252, 170, 0.733)
   );
-  opacity: 80%;
+  padding: 5px;
+}
+.divInCreation2 {
+  display: flex;
+  padding: 10px;
+  border-radius: 4px;
 }
