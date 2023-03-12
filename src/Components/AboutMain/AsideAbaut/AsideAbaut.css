@@ -1,5 +1,4 @@
 .DivSticky {
-  border: 2px outset #6c604b;
   border-radius: 4px;
   width: 100px;
   height: 88.2vh;
@@ -7,7 +6,6 @@
   top: 9px;
 }
 .Aside li {
-  color: white;
   list-style: none;
   font-size: 11px;
 }

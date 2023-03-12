@@ -7,8 +7,8 @@
     "btnProjects": "Projetos",
     "btnInCreation": "Em criaçao",
 
-    "Home": "Funfou no home",
-    "Projects": "Funfou no  projetos",
-    "InCreation": "Funfou no criando"
+    "P1AboutSection1": "Olá, meu nome é ",
+    "H1AboutSection1": "Herico de Lima Campos.",
+    "P2AboutSection1": "Estarei falando um pouco sobre mim, e demostrando meus conhecimentos e progressos na programação."
   }
 }

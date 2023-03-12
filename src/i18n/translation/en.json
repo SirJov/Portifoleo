@@ -7,8 +7,8 @@
     "btnProjects": "Projects",
     "btnInCreation": "In Creation",
 
-    "Home": "My profile is beautiful",
-    "Projects": "My projects are beautiful",
-    "InCreation": "I'm creating something very beautiful"
+    "P1AboutSection1": "Hello, my name is",
+    "H1AboutSection1": "Herico de Lima Campos.",
+    "P2AboutSection1": "I'll be talking a little about myself, and demonstrating my knowledge and progress in programming."
   }
 }
