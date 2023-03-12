@@ -23,12 +23,20 @@
   text-align: center;
   margin-bottom: 10px;
 }
-.About2SubBox1 div:first-of-type {
-  width: 40vw;
+.About2SubBox1 div {
+  width: 30vw;
 }
-.About2SubBox1 div:last-of-type {
-  width: 40vw;
-}
+
 #About2Box img {
   margin: 40px 0px;
+  max-width: 90%;
+}
+
+@media (max-width: 720px) {
+  .About2SubBox1 {
+    flex-direction: column;
+  }
+  .About2SubBox1 div {
+    width: auto;
+  }
 }
