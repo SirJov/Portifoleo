@@ -7,7 +7,7 @@ import "./Header.css";
 
 export function Header() {
   return (
-    <header className="logo">
+    <header id="logo" className="logo">
       <OptLin />
       <OptionsTheme />
     </header>

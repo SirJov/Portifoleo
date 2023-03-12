@@ -1,4 +1,4 @@
-.About1Box {
+#About1Box {
   margin-left: 5px;
   border-bottom: 3px solid rgba(255, 255, 255, 0.475);
   padding: 40px 10%;
@@ -27,13 +27,13 @@
 }
 
 @media (max-width: 720px) {
-  .About1Box {
+  #About1Box {
     padding: 40px 0%;
   }
-  .About1Box p {
+  #About1Box p {
     font-size: 12px;
   }
-  .About1Box h1 {
+  #About1Box h1 {
     font-size: 16px;
   }
   .About1SubBox {
@@ -48,7 +48,7 @@
   }
 }
 @media (max-width: 400px) {
-  .About1Box {
+  #About1Box {
     padding: 10px 0%;
   }
   .About1SubBox {
