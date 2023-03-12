@@ -12,7 +12,7 @@ import Borda1 from "../../../../assets/Borda1.webp";
 export function AboutSection1() {
   const [t, i18n] = useTranslation();
   return (
-    <div className="About1Box">
+    <div id="About1Box" className="About1Box">
       <div className="About1SubBox">
         <div>
           <p>{t("P1AboutSection1")}</p>

@@ -1,20 +1,28 @@
 .DivSticky {
   border-radius: 4px;
-  width: 100px;
   position: sticky;
-  top: 9px;
-  background-color: aqua;
+  top: 120px;
+}
+.DivSticky p{
+  text-align: center;
 }
 .Aside li {
+  margin-top: 20px;
   list-style: none;
   font-size: 11px;
+  display: flex;
+}
+.Aside li a {
+  font-size: 10;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid rgba(116, 116, 116, 0);
+}
+.Aside li a:hover {
+  border-bottom: 3px solid rgb(116, 116, 116);
 }
 
-@media (max-width: 720px) {
-  .DivSticky {
-    width: 60px;
-  }
-}
 @media (max-width: 400px) {
   .Aside {
     display: none;
