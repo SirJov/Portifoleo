@@ -67,7 +67,7 @@
 
 /*_________________________@MEDIA________________________________*/
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   .MenuLeft ul {
     margin: 0px 0px 0px 0px;
   }

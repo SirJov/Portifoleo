@@ -55,7 +55,7 @@
 
 /*_________________________@MEDIA________________________________*/
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   #git:hover .la {
     width: 24px;
     transition: all 0.1s ease-in-out;

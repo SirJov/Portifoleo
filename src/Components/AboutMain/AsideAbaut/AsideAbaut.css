@@ -1,11 +1,22 @@
 .DivSticky {
   border-radius: 4px;
   width: 100px;
-  height: 88.2vh;
   position: sticky;
   top: 9px;
+  background-color: aqua;
 }
 .Aside li {
   list-style: none;
   font-size: 11px;
+}
+
+@media (max-width: 720px) {
+  .DivSticky {
+    width: 60px;
+  }
+}
+@media (max-width: 400px) {
+  .Aside {
+    display: none;
+  }
 }

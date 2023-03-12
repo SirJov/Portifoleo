@@ -15,6 +15,7 @@
   color: rgb(0, 125, 38);
   animation: EfeitoCor 4s infinite;
 }
+
 .About1Img1 {
   height: 400px;
 }
@@ -24,15 +25,50 @@
   height: 100px;
 }
 
+@media (max-width: 720px) {
+  .About1Box {
+    padding: 40px 0%;
+  }
+  .About1Box p {
+    font-size: 12px;
+  }
+  .About1Box h1 {
+    font-size: 16px;
+  }
+  .About1SubBox {
+    gap: 0px;
+  }
+
+  .About1Img1 {
+    height: 250px;
+  }
+  .About1Borda1 {
+    height: 50px;
+  }
+}
+@media (max-width: 400px) {
+  .About1Box {
+    padding: 10px 0%;
+  }
+  .About1SubBox {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .About1Img1 {
+    margin-bottom: 20px;
+  }
+}
+
 @keyframes EfeitoCor {
   0% {
     text-shadow: 0.5px 0.5px rgb(0, 255, 229);
   }
- 
+
   50% {
     text-shadow: 0.5px 0.5px rgb(0, 26, 255);
   }
- 
+
   100% {
     text-shadow: 0.5px 0.5px rgb(0, 242, 255);
   }
