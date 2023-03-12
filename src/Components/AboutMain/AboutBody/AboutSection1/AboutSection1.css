@@ -1,0 +1,15 @@
+.About1Box {
+  border-bottom: 3px solid rgba(255, 255, 255, 0.475);
+  padding: 40px 10%;
+}
+.About1SubBox {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+}
+.About1Box img {
+  height: 400px;
+}
