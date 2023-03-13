@@ -18,7 +18,7 @@ export function AsideAbout() {
             <a href="#About2Box">{t("L2AboutAside")}</a>
           </li>
           <li>
-            <a href="#About3Box">tetaaata</a>
+            <a href="#Box1AboutSection3">{t("L3AboutAside")}</a>
           </li>
           <li>
             <a href="">astastast</a>

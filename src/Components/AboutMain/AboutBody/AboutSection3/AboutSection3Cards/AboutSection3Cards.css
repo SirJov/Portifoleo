@@ -26,11 +26,19 @@
   padding: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   #AboutSection3Card {
     width: 285px;
   }
   #AboutSection3Card img {
     width: 280px;
+  }
+}
+@media (max-width: 320px) {
+  #AboutSection3Card {
+    width: 85vw;
+  }
+  #AboutSection3Card img {
+    width: 80vw;
   }
 }

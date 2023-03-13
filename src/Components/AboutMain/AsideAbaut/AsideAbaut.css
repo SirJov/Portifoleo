@@ -1,9 +1,9 @@
 .DivSticky {
   border-radius: 4px;
   position: sticky;
-  top: 100px;
+  top: 10px;
 }
-.DivSticky p{
+.DivSticky p {
   text-align: center;
 }
 .Aside li {
@@ -13,7 +13,6 @@
   display: flex;
 }
 .Aside li a {
-  font-size: 10;
   text-decoration: none;
   display: flex;
   align-items: center;
