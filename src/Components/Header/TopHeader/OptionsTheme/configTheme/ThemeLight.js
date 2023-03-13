@@ -10,6 +10,7 @@ const Light = `
 
 .About1Borda1 {filter: invert(10%);}
 .Aside li a {color: rgb(0, 31, 2);}
+#AboutSection3Card {background-image: linear-gradient(45deg, rgb(220, 217, 255), rgb(41, 254, 105));}
 
 footer {background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.689), rgb(78, 215, 163));}
 footer p {color:black;}

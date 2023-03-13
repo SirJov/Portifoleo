@@ -25,6 +25,21 @@
     "P6AboutSection2": "English : low, but I can",
     "P7AboutSection2": "Hometown : Curitiba",
     "P8AboutSection2": "Currently living in São Bernardino - SC",
-    "P9AboutSection2": "For about a year now, I've been focusing my free time after work on studying programming. With a main focus on Front-end, I'm having daily contact with html, css and Javascript in online courses and personal projects where I practice the concepts learned. Despite the focus on the Front-end, curiosity and advice from friends who were already programmers, led me to also study the Back-end, taking full advantage of the versatility of Javascript, making me aspire to be a Full-stack professional in the future"
+    "P9AboutSection2": "For about a year now, I've been focusing my free time after work on studying programming. With a main focus on Front-end, I'm having daily contact with html, css and Javascript in online courses and personal projects where I practice the concepts learned. Despite the focus on the Front-end, curiosity and advice from friends who were already programmers, led me to also study the Back-end, taking full advantage of the versatility of Javascript, making me aspire to be a Full-stack professional in the future",
+
+    "P1AboutSection3": "",
+    "Gesseiro": "Plasterer",
+    "Motoboy": "Motorcycle Freight",
+    "Pecuarista": "Rancher",
+    "Pedreiro": "Mason",
+    "Carpinteiro": "Carpenter",
+    "Estoquista": "Stockist",
+
+    "GesseiroAboutSection3": "Profession that I worked most in my life, I worked 6 years as a plasterer. Of the civil construction professions in which I worked, this is without a doubt the one that I liked the most and the one that I adapted the most. Although I no longer hold that position, I still receive calls from members who want my services.",
+    "MotoboyAboutSection3": "",
+    "PecuaristaAboutSection3": "",
+    "PedreiroAboutSection3": "",
+    "CarpintariaAboutSection3": "",
+    "EstoquistaAboutSection3": ""
   }
 }
