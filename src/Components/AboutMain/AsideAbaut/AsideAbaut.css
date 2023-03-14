@@ -22,7 +22,7 @@
   border-bottom: 3px solid rgb(116, 116, 116);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .Aside {
     display: none;
   }
