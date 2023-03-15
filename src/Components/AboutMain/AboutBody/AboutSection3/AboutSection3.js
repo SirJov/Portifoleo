@@ -9,7 +9,7 @@ export function AboutSection3() {
   const [t, i18n] = useTranslation();
   return (
     <div id="AboutSection3">
-      <div id ="Box1AboutSection3"className="Box1AboutSection3">
+      <div id="Box1AboutSection3" className="Box1AboutSection3">
         <AboutSection3Cards />
       </div>
       <p></p>

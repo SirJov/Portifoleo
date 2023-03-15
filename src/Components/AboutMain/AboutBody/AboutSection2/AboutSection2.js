@@ -15,6 +15,7 @@ export function AboutSection2() {
           <p>{t("P2AboutSection2")}</p>
           <p>{t("P3AboutSection2")}</p>
           <p>{t("P4AboutSection2")}</p>
+          <p>{t("P0AboutSection2")}</p>
         </div>
         <div>
           <p>{t("P5AboutSection2")}</p>
