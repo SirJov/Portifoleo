@@ -1,50 +1,20 @@
-#AboutSection3Card {
+#AboutSection3Courses {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 5px 5px;
-  border-radius: 10px 10px 5px 5px;
-  border: 3px outset #6c604b;
-  width: 325px;
-  height: fit-content;
-}
-#AboutSection3Card p {
-  font-size: 11px;
-  text-align: center;
+  align-items: center;
 }
 
-#AboutSection3Card img {
-  width: 320px;
-  border-radius: 8px 8px 0px 0px;
+#AboutSection3Courses img {
+  height: 70px;
 }
-
-#AboutSection3Card h5 {
-  text-align: center;
-}
-#AboutSection3Card div:last-of-type {
-  padding: 10px;
+#AboutSection3Courses h5 {
+  margin-top: 15px;
+  font-size: 17px;
 }
 
 @media (max-width: 900px) {
-  #AboutSection3Card {
-    width: 285px;
-  }
-  #AboutSection3Card img {
-    width: 280px;
-  }
 }
 @media (max-width: 320px) {
-  #AboutSection3Card {
-    width: 85vw;
-  }
-  #AboutSection3Card img {
-    width: 83vw;
-  }
 }
 @media (max-width: 270px) {
- 
-  #AboutSection3Card img {
-    width: 80vw;
-  }
 }

@@ -1,11 +1,18 @@
+#AboutSection3 {
+  border-bottom: 3px solid rgba(255, 255, 255, 0.475);
+}
+
 .AboutSection3CoursesBox {
+  margin-top: 80px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 50px;
 }
 
 .AboutSection3CardsBox {
   margin-top: 80px;
+  margin-bottom: 80px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
