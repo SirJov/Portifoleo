@@ -13,7 +13,11 @@
   margin: auto;
   line-height: 2;
 }
-
+.ThirdPAboutSection3 {
+  max-width: 800px;
+  margin: auto;
+  line-height: 2;
+}
 .AboutSection3CoursesBox {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -24,7 +28,7 @@
 }
 
 .AboutSection3CardsBox {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
   display: flex;
   flex-wrap: wrap;

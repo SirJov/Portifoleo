@@ -30,8 +30,13 @@
     "P8AboutSection2": "Morando atualmente em Sao Bernardino - SC",
     "P9AboutSection2": "Há aproximadamente um ano, estou focando meu tempo livre após o trabalho, em estudos sobre programação. Com foco principal no Front-end, estou tendo contato diário com html, css e Javascript em cursos online e projetos pessoais onde eu pratico os conceitos aprendidos. Apesar do foco em Front-end, a curiosidade e os conselhos de amigos já programadores, me levaram a estudar também o Back-end aproveitando ao máximo a versatilidade do Javascript, me fazendo almejar no futuro ser um profissional Full-stack.",
 
-    "P1AboutSection3": "Ainda estou à procura do meu primeiro emprego na área da programação, atualmente sigo cursos online e ainda desenvolvo projetos pessoais. Por mais de um ano, estudei na plataforma de cursos online Devmedia, onde aprendi e pratiquei muitas coisas sobre alguns temas e ganhei diversos certificados que estou disponibilizando para visualização logo abaixo.",
-    "P2AboutSection3": "",
+    "P1-1AboutSection3": "Ainda estou à procura do meu primeiro emprego na área da programação, atualmente sigo cursos online e ainda desenvolvo projetos pessoais. Por mais de um ano, estudei na plataforma de cursos online ",
+    "P1-2AboutSection3": ", onde aprendi e pratiquei muitas coisas sobre alguns temas e ganhei diversos certificados que estou disponibilizando para visualização logo abaixo.",
+    "P2-1AboutSection3": "Atualmente estou focando em 2 cursos mais específicos na plataforma ",
+    "P2-2AboutSection3": " são cursos mais focados para o Front-end do básico ao avançado e estou fazendo muitas pesquisas pela internet de conteúdos específicos e problemas que encontro durante a criação dos meus projetos. Abaixo estão os links dos cursos em que estou focando meus estudos atualmente.",
+    "A1-AboutSection3Courses": "Javascrypt-Moderno-Basico/Avançado",
+    "A2-AboutSection3Courses": "Reactjs-Nextjs-Completo-Basico/Avançado",
+    "P3-1AboutSection3": "Até eu conseguir um trabalho de programador, eu vou continuando os estudos e trabalhando em outras áreas para me manter, durante o percurso da minha vida eu aprendi muitas habilidades e funções que estarei mostrando nos cards a seguir.",
 
     "Gesseiro": "Gesseiro",
     "Motoboy": "Motoboy",

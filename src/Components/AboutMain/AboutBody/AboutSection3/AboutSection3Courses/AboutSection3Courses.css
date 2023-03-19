@@ -1,3 +1,10 @@
+.FirstPAboutSection3 a {
+  text-decoration: none;
+}
+.SecondPAboutSection3 a {
+  text-decoration: none;
+}
+
 #AboutSection3Courses {
   display: flex;
   flex-direction: column;
@@ -12,13 +19,24 @@
   font-size: 17px;
 }
 #AboutSection3Courses a {
+  filter: brightness(70%);
   height: 70px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 #AboutSection3Courses a:hover {
   filter: brightness(120%);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.LinksCoucesAboutSection3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.LinksCoucesAboutSection3 a {
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {
