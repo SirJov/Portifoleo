@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import "./AboutSection2.css";
 
 import FrontBack from "../../../../assets/FrontBack.webp";
+import imgAbout2 from "../../../../assets/imgAbout2.webp";
 
 export function AboutSection2() {
   const [t, i18n] = useTranslation();
@@ -23,6 +24,10 @@ export function AboutSection2() {
           <p>{t("P7AboutSection2")}</p>
           <p>{t("P8AboutSection2")}</p>
         </div>
+      </div>
+      <div className="interBox">
+        <div></div>
+        <img src={imgAbout2} />
       </div>
       <div className="About2SubBox2">
         <p>{t("P9AboutSection2")}</p>

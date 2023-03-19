@@ -33,6 +33,10 @@
   max-width: 90%;
 }
 
+.interBox img {
+  width: 200px;
+}
+
 @media (max-width: 720px) {
   .About2SubBox1 {
     flex-direction: column;
