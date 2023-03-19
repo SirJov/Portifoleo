@@ -11,6 +11,15 @@
   margin-top: 15px;
   font-size: 17px;
 }
+#AboutSection3Courses a {
+  height: 70px;
+  transition: all 0.2s ease-in-out;
+}
+
+#AboutSection3Courses a:hover {
+  filter: brightness(120%);
+  transition: all 0.2s ease-in-out;
+}
 
 @media (max-width: 900px) {
 }

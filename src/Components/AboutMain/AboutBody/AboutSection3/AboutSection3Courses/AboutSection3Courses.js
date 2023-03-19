@@ -15,50 +15,39 @@ export function AboutSection3Courses() {
   const ArrayCourses = [
     {
       img: JAVASCRYPT,
-      TagA: t(
-        "https://www.devmedia.com.br/certificado/tecnologia/javascript/herico-de-lima-de-campos"
-      ),
-      msg: t("Javascrypt"),
+      TagA: "https://www.devmedia.com.br/certificado/tecnologia/javascript/herico-de-lima-de-campos",
+      msg: "Js",
     },
     {
       img: REACT,
-      TagA: t(
-        "https://www.devmedia.com.br/certificado/tecnologia/react/herico-de-lima-de-campos"
-      ),
-      msg: t("React"),
+      TagA: "https://www.devmedia.com.br/certificado/tecnologia/react/herico-de-lima-de-campos",
+      msg: "React",
     },
     {
       img: HTML,
-      TagA: t(
-        "https://www.devmedia.com.br/certificado/tecnologia/html/herico-de-lima-de-campos"
-      ),
-      msg: t("Html"),
+      TagA: "https://www.devmedia.com.br/certificado/tecnologia/html/herico-de-lima-de-campos",
+      msg: "Html",
     },
     {
       img: CSS,
-      TagA: t(
-        "https://www.devmedia.com.br/certificado/tecnologia/css/herico-de-lima-de-campos"
-      ),
-      msg: t("Css"),
+      TagA: "https://www.devmedia.com.br/certificado/tecnologia/css/herico-de-lima-de-campos",
+      msg: "Css",
     },
     {
       img: PYTHON,
-      TagA: t(
-        "https://www.devmedia.com.br/certificado/tecnologia/python/herico-de-lima-de-campos"
-      ),
-      msg: t("Python"),
+      TagA: "https://www.devmedia.com.br/certificado/tecnologia/python/herico-de-lima-de-campos",
+      msg: "Python",
     },
   ];
 
   return ArrayCourses.map((iten, index) => {
     return (
       <div key={index} id="AboutSection3Courses">
-        <div>
+        <a href={iten.TagA} target="_blank">
           <img src={iten.img} />
-        </div>
+        </a>
         <h5>{iten.msg}</h5>
       </div>
     );
   });
 }
- 
