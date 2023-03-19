@@ -1,4 +1,11 @@
-.Box1AboutSection3 {
+.AboutSection3CoursesBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.AboutSection3CardsBox {
+  margin-top: 80px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;

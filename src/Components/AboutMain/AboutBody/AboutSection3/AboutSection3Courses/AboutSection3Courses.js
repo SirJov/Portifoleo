@@ -3,43 +3,60 @@ import { useTranslation } from "react-i18next";
 
 import "./AboutSection3Courses.css";
 
-import Gesseiro from "../../../../../assets/Gesseiro.webp";
-import Motoboy from "../../../../../assets/Motoboy.webp";
-import Pecuarista from "../../../../../assets/Pecuarista.webp";
-import Pedreiro from "../../../../../assets/Pedreiro.webp";
-import Carpintaria from "../../../../../assets/Carpintaria.webp";
-import Estoquista from "../../../../../assets/Estoquista.webp";
+import CSS from "../../../../../assets/CSS.webp";
+import HTML from "../../../../../assets/HTML.webp";
+import JAVASCRYPT from "../../../../../assets/JS.webp";
+import PYTHON from "../../../../../assets/Python.webp";
+import REACT from "../../../../../assets/React.webp";
 
-export function AboutSection3Cards() {
+export function AboutSection3Courses() {
   const [t, i18n] = useTranslation();
 
   const ArrayCourses = [
-    { img: Gesseiro, TagA: t(""), msg: t("") },
-    { img: Motoboy, TagA: t(""), msg: t("") },
     {
-      img: Pecuarista,
-      TagA: t(""),
-      msg: t(""),
+      img: JAVASCRYPT,
+      TagA: t(
+        "https://www.devmedia.com.br/certificado/tecnologia/javascript/herico-de-lima-de-campos"
+      ),
+      msg: t("Javascrypt"),
     },
-    { img: Pedreiro, TagA: t(""), msg: t("") },
     {
-      img: Carpintaria,
-      h5: t(""),
-      msg: t(""),
+      img: REACT,
+      TagA: t(
+        "https://www.devmedia.com.br/certificado/tecnologia/react/herico-de-lima-de-campos"
+      ),
+      msg: t("React"),
     },
-    { img: Estoquista, h5: t(""), msg: t("") },
+    {
+      img: HTML,
+      TagA: t(
+        "https://www.devmedia.com.br/certificado/tecnologia/html/herico-de-lima-de-campos"
+      ),
+      msg: t("Html"),
+    },
+    {
+      img: CSS,
+      TagA: t(
+        "https://www.devmedia.com.br/certificado/tecnologia/css/herico-de-lima-de-campos"
+      ),
+      msg: t("Css"),
+    },
+    {
+      img: PYTHON,
+      TagA: t(
+        "https://www.devmedia.com.br/certificado/tecnologia/python/herico-de-lima-de-campos"
+      ),
+      msg: t("Python"),
+    },
   ];
 
-  return ArrayExperiencia.map((iten, index) => {
+  return ArrayCourses.map((iten, index) => {
     return (
-      <div key={index} id="AboutSection3Card">
+      <div key={index} id="AboutSection3Courses">
         <div>
           <img src={iten.img} />
         </div>
-        <h5>{iten.h5}</h5>
-        <div>
-          <p>{iten.msg}</p>
-        </div>
+        <h5>{iten.msg}</h5>
       </div>
     );
   });
