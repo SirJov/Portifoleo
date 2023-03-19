@@ -11,9 +11,11 @@ export function AboutSection3() {
   return (
     <div id="AboutSection3">
       <div id="Box1AboutSection3" className="Box1AboutSection3">
+        <p className="FirstPAboutSection3">{t("P1AboutSection3")}</p>
         <div className="AboutSection3CoursesBox">
           <AboutSection3Courses />
         </div>
+        <p className="SecondPAboutSection3">TESTEEEE</p>
         <div className="AboutSection3CardsBox">
           <AboutSection3Cards />
         </div>

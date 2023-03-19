@@ -1,9 +1,22 @@
 #AboutSection3 {
+  margin-top: 100px;
   border-bottom: 3px solid rgba(255, 255, 255, 0.475);
+  text-align: center;
+}
+.FirstPAboutSection3 {
+  max-width: 800px;
+  margin: auto;
+  line-height: 2;
+}
+.SecondPAboutSection3 {
+  max-width: 800px;
+  margin: auto;
+  line-height: 2;
 }
 
 .AboutSection3CoursesBox {
-  margin-top: 80px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -11,8 +24,8 @@
 }
 
 .AboutSection3CardsBox {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
