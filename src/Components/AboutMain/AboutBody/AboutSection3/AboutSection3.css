@@ -34,3 +34,8 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+.LinksCoucesAboutSection3 a {
+  margin: 0px auto;
+  width: fit-content;
+}

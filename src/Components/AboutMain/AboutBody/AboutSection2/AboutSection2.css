@@ -43,7 +43,7 @@
 }
 
 .interBox img {
-  width: 250px;
+  width: 200px;
 }
 
 @media (max-width: 720px) {
@@ -52,5 +52,10 @@
   }
   .About2SubBox1 div {
     width: auto;
+  }
+}
+@media (max-width: 270px) {
+  .interBox img {
+    width: 120%;
   }
 }
