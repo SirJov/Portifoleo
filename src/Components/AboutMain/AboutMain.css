@@ -1,10 +1,5 @@
 .divAbout {
   border-radius: 5px 5px 5px 5px;
-  background-image: linear-gradient(
-    0deg,
-    rgba(241, 214, 252, 0.692),
-    rgba(190, 242, 248, 0.733)
-  );
   padding: 5px;
 }
 
@@ -12,4 +7,5 @@
   display: flex;
   padding: 10px;
   border-radius: 4px;
+  min-height: 86vh;
 }
