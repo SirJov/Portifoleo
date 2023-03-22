@@ -45,6 +45,20 @@
 .interBox img {
   width: 200px;
 }
+.interBox div {
+  max-width: 250px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.2;
+}
+.interBox ul {
+  margin-top: 20px;
+  max-width: 250px;
+  text-align: center;
+}
+.interBox li {
+  margin-top: 5px;
+}
 
 @media (max-width: 720px) {
   .About2SubBox1 {
@@ -53,9 +67,12 @@
   .About2SubBox1 div {
     width: auto;
   }
+  .interBox img {
+    display: none;
+  }
 }
 @media (max-width: 270px) {
   .interBox img {
-    width: 120%;
+    display: n;
   }
 }
