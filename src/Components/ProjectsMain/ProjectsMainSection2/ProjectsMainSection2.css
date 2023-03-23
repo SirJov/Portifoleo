@@ -1,0 +1,16 @@
+.ProjectsMainSection2 {
+  background-color: blue;
+  margin: 20px 0px;
+  width: 400px;
+  animation: EfectDiv 0.5s forwards;
+}
+
+@keyframes EfectDiv {
+  0% {
+    transform: scale(0, 0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
