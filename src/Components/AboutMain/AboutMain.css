@@ -1,6 +1,11 @@
 .divAbout {
   border-radius: 5px 5px 5px 5px;
   padding: 5px;
+  background-image: linear-gradient(
+    0deg,
+    rgba(241, 214, 252, 0.692),
+    rgba(190, 242, 248, 0.733)
+  );
 }
 
 .divAbout2 {

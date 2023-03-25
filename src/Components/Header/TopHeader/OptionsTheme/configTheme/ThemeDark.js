@@ -4,7 +4,6 @@ const Dark = `
 
 .container{color:white;}
 
-.divAbout {background-image: linear-gradient(0deg,rgba(241, 214, 252, 0.692),rgba(190, 242, 248, 0.733));}
 .divAbout2 {background-image: linear-gradient(0deg, rgba(1, 11, 12, 0.893), rgb(0, 0, 0),rgba(1, 11, 12, 0.893));}
 .divProject2 {background-image: linear-gradient(0deg, rgba(1, 11, 12, 0.893), rgb(0, 0, 0),rgba(1, 11, 12, 0.893));}
 .divInCreation2 {background-image: linear-gradient(0deg, rgba(1, 11, 12, 0.893), rgb(0, 0, 0),rgba(1, 11, 12, 0.893));}

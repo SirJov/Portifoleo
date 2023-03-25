@@ -1,8 +1,9 @@
 #About1Box {
-  margin: 70px 0px 0px 5px;
+  margin: 100px 0px 0px 5px;
   border-bottom: 3px solid rgba(255, 255, 255, 0.475);
-  padding: 40px 10% 70px 10%;
+  padding: 40px 10% 200px 10%;
   line-height: 2;
+  animation: EfectDivAbout1 3s forwards;
 }
 .About1SubBox {
   margin: auto;
@@ -73,5 +74,15 @@
 
   100% {
     text-shadow: 0.5px 0.5px rgb(0, 242, 255);
+  }
+}
+
+@keyframes EfectDivAbout1 {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
   }
 }
