@@ -4,6 +4,9 @@
   width: 400px;
   animation: EfectDiv 0.5s forwards;
 }
+.ProjectsMainSection2 img {
+  height: 100px;
+}
 
 @keyframes EfectDiv {
   0% {

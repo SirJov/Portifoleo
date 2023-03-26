@@ -5,7 +5,9 @@ import "./ProjectsMainSection1.css";
 export function ProjectsMainSection1() {
   return (
     <div className="ProjectsMainSection1">
-      <>sdfhg</>
+      <div>
+        <p>aasgasgas</p>
+      </div>
     </div>
   );
 }
