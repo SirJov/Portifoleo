@@ -15,8 +15,12 @@ export function ProjectsMainSection2() {
         <div className="ProjectsMainSection2Box4">
           <p></p>
         </div>
+        <div className="ProjectsMainSection2Box5">
+          <img />a
+          <img />a
+          <img />a
+        </div>
       </div>
     </div>
   );
 }
- 

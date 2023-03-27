@@ -42,9 +42,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   background-color: rgb(139, 81, 0);
   width: 68%;
+}
+
+.ProjectsMainSection2Box5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(139, 81, 0);
+  width: 7%;
 }
 
 .ProjectsMainSection2Box2:hover {
@@ -53,8 +62,6 @@
   cursor: pointer;
   font-size: 110%;
 }
-
-
 
 @keyframes EfectDiv {
   0% {

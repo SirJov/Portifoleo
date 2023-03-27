@@ -11,20 +11,41 @@ export function ProjectsMainSection1() {
       <img className="imgBordas" src={Borda2L} />
       <div>
         <h3>Projetos</h3>
-        <ul>
-          <li>
-            <img />
-            <p>asdasd</p>
-          </li>
-          <li>
-            <img />
-            <p>asdasd</p>
-          </li>
-          <li>
-            <img />
-            <p>asdasd</p>
-          </li>
-        </ul>
+        <div className="ProjectsMainSection1Box2">
+          <div>
+            <p>AHSUHEuHASuHE</p>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <img />
+                <p>asdasdddddddddddddd d dd</p>
+              </li>
+              <li>
+                <img />
+                <p>asdasd</p>
+              </li>
+              <li>
+                <img />
+                <p>asdasd</p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <img />
+                <p>asdasd</p>
+              </li>
+              <li>
+                <img />
+                <p>asdasd</p>
+              </li>
+              <li>
+                <img />
+                <p>asdasd</p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
       <img className="imgBordas" src={Borda2R} />
     </div>
