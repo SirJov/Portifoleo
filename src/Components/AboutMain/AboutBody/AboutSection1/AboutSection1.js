@@ -20,7 +20,7 @@ export function AboutSection1() {
           <h1 className="NickName">{t("H1AboutSection1")}</h1>
           <br />
           <p>{t("P2AboutSection1")}</p>
-          <img className="About1Borda1" src={Borda1} />
+          <img id="Borda1" className="imgBordas" src={Borda1} />
         </div>
         <img className="About1Img1" src={imgAbout1} />
       </div>

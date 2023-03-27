@@ -21,7 +21,7 @@ export function AsideAbout() {
             <a href="#Box1AboutSection3">{t("L3AboutAside")}</a>
           </li>
           <li>
-            <a href="">Em Breve</a>
+            <a href=""></a>
           </li>
         </ul>
         <div></div>

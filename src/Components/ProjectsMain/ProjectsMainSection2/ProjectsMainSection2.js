@@ -10,12 +10,13 @@ export function ProjectsMainSection2() {
       <div className="ProjectsMainSection2Box2">
         <div className="ProjectsMainSection2Box3">
           <img src={imgNewFrontTasks1} />
-          <p>teste</p>
+          <p>Front React Tasks</p>
         </div>
-        <div>
+        <div className="ProjectsMainSection2Box4">
           <p></p>
         </div>
       </div>
     </div>
   );
 }
+ 

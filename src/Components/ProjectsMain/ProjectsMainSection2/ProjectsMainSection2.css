@@ -2,9 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue;
   margin: 20px 0px;
-  animation: EfectDiv 0.5s forwards;
   border-radius: 5px 5px 5px 5px;
   max-width: 450px;
   height: 200px;
@@ -12,14 +10,14 @@
 
 .ProjectsMainSection2Box2 {
   display: flex;
-  background-color: rgb(0, 255, 42);
+  gap: 2%;
   margin: 20px 0px;
   padding: 5px;
   animation: EfectDiv 0.5s forwards;
   border-radius: 5px 5px 5px 5px;
   width: 430px;
   height: 180px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.1s ease-in-out;
   border: 2px solid rgb(90, 79, 64);
 }
 .ProjectsMainSection2Box3 {
@@ -27,23 +25,37 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 10px;
   background-color: rgb(90, 79, 64);
-  padding-bottom: 20px;
+  width: 30%;
 }
 .ProjectsMainSection2Box3 p {
+  text-align: center;
 }
 
 .ProjectsMainSection2 img {
-  height: 64%;
+  max-height: 64%;
+}
+
+.ProjectsMainSection2Box4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(139, 81, 0);
+  width: 68%;
 }
 
 .ProjectsMainSection2Box2:hover {
   width: 450px;
-  height: 200px;
+  height: 195px;
   cursor: pointer;
   font-size: 110%;
 }
+
+
+
 @keyframes EfectDiv {
   0% {
     transform: scale(0, 0);

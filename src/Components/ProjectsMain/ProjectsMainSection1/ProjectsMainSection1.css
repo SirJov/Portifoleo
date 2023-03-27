@@ -1,5 +1,26 @@
 .ProjectsMainSection1 {
-  background-color: rgb(209, 202, 98);
-  margin: 20px 0px;
-  
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  text-align: center;
+  border-bottom: 2px solid rgb(90, 79, 64);
+  padding-bottom: 20px;
+}
+
+.ProjectsMainSection1 img {
+  width: 200px;
+}
+.ProjectsMainSection1 ul {
+  margin-top: 20px;
+  background-color: bisque;
+}
+.ProjectsMainSection1 li {
+  background-color: rgb(245, 135, 0);
+  display: flex;
+}
+@media (max-width: 720px) {
+  .ProjectsMainSection1 img {
+    width: 30%;
+    filter: invert(70%);
+  }
 }

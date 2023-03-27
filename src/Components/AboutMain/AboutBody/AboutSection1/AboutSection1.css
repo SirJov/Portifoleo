@@ -22,8 +22,7 @@
 .About1Img1 {
   height: 400px;
 }
-.About1Borda1 {
-  filter: invert(70%);
+#Borda1 {
   margin-top: 20px;
   height: 100px;
 }
