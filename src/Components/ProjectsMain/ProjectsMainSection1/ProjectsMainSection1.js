@@ -22,15 +22,14 @@ export function ProjectsMainSection1() {
         <div>
           <ul>
             <li>
-              <img className="iconProject" src={iconFront} alt="" />
-              <p>Front-end</p>
-            </li>
-            <li>
               <img className="iconProject" src={iconProprio} alt="" />
               <p>{t("iconPerson")}</p>
             </li>
-          </ul>
-          <ul>
+            <li>
+              <img className="iconProject" src={iconFront} alt="" />
+              <p>Front-end</p>
+            </li>
+
             <li>
               <img className="iconProject" src={iconBack} alt="" />
               <p>Back-end</p>

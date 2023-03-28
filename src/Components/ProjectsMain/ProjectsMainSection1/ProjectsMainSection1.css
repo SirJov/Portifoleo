@@ -20,13 +20,19 @@
 #borda2Project {
   width: 150px;
 }
-
+.ProjectsMainSection1Box2 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
 .ProjectsMainSection1Box2 ul li {
   list-style: none;
   font-size: 11px;
 }
 .iconProject {
   width: 20px;
+  height: 25px;
 }
 @media (max-width: 720px) {
   #borda1Project {
@@ -35,7 +41,7 @@
   #borda2Project {
     width: 20%;
   }
-  
+
   .ProjectsMainSection1Box2 div {
     display: flex;
     justify-content: center;
