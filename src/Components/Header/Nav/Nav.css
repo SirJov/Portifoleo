@@ -1,6 +1,6 @@
 .MenuNav {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   justify-content: space-between;
   flex-wrap: wrap;
   border-radius: 0px 0px 5px 5px;

@@ -33,7 +33,7 @@
     "L1AboutSection2": "Simple because I don't currently have a very advanced knowledge of programming.",
     "L2AboutSection2": "Efficient in a way that it delivers all the desired functionalities properly",
     "L3AboutSection2": "Intuitive so that people at any age can understand how the application works.",
- 
+
     "P1-1AboutSection3": "I'm still looking to get my first job in the area of ​​programming, I'm currently following online courses and I'm still developing personal projects.For more than a year, I studied on the ",
     "P1-2AboutSection3": " online course platform, where I learned and practiced many things on some topics and earned several certificates that I am making available for viewing below.",
     "P2-1AboutSection3": "I am currently focusing on 2 more specific courses on the ",
@@ -54,6 +54,10 @@
     "PecuaristaAboutSection3": "I worked for just over a year on a dairy farm, performing general services such as milking operator, maintenance, installations, among others. One of the main functions was livestock, dealing with dairy cows, sheep, pigs and other animals. A job that brought me closer to nature and taught me many lessons that I will take with me for the rest of my life.",
     "PedreiroAboutSection3": "Experience in small constructions and maintenance in masonry, working for many years with my father, who was a foreman for a large Brazilian construction company, I was able to learn a lot about the profession of mason.",
     "CarpintariaAboutSection3": "Structures for roofs and linings, among other services in wood, are also among my work experiences.",
-    "EstoquistaAboutSection3": "Role I currently play in São Bernardino-SC, checking and organizing the stock of an electrical products and building materials store. I also worked in downtown Curitiba in a CCTV store as a stock assistant until I was promoted to salesman."
+    "EstoquistaAboutSection3": "Role I currently play in São Bernardino-SC, checking and organizing the stock of an electrical products and building materials store. I also worked in downtown Curitiba in a CCTV store as a stock assistant until I was promoted to salesman.",
+
+    "ProjectsMainP1": "Project icon guide",
+    "iconPerson": "Personal - project of my own",
+    "iconDidatic": "Didatic - work for courses"
   }
 }
