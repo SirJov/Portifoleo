@@ -2,9 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0px;
+  margin: 10px 0px;
   border-radius: 5px 5px 5px 5px;
-  max-width: 450px;
+  width: 450px;
   height: 200px;
 }
 
@@ -37,7 +37,7 @@
 .ProjectsMainSection2Box3 p {
   text-align: center;
 }
-
+ 
 .ProjectsMainSection2 img {
   max-height: 64%;
 }

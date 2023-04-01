@@ -9,7 +9,7 @@
   left: 0px;
   right: 0px;
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.801);
+  background-color: rgba(63, 63, 63, 0.877);
 }
 
 .ProjectsModalBox1 {
@@ -20,5 +20,6 @@
   bottom: 15%;
   left: 5%;
   right: 5%;
-  background-color: aliceblue;
+  animation: EfectDiv1 1s forwards;
 }
+ 

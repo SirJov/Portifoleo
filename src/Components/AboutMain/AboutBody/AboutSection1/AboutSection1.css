@@ -3,7 +3,7 @@
   border-bottom: 3px solid rgba(255, 255, 255, 0.475);
   padding: 40px 10% 200px 10%;
   line-height: 2;
-  animation: EfectDivAbout1 3s forwards;
+  animation: EfectDiv1 3s forwards;
 }
 .About1SubBox {
   margin: auto;
@@ -76,7 +76,7 @@
   }
 }
 
-@keyframes EfectDivAbout1 {
+@keyframes EfectDiv1 {
   0% {
     opacity: 0%;
   }
