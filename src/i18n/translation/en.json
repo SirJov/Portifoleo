@@ -60,7 +60,13 @@
     "iconPerson": "Personal - project of my own",
     "iconDidatic": "Didatic - based on courses",
 
-    "projectFrontText1": "Project 1 in ingles",
-    "projectFrontText2": "Project 2 in inglezan"
+    "wasUsed": "In this project it was used :",
+
+    "titleProject1": "To-do list",
+    "project1Description1": "App where you can create, change and delete tasks",
+    "project1Description2": "React | Javascrypt | Css | Html ...",
+    "": "",
+    "": "",
+    "": ""
   }
 }

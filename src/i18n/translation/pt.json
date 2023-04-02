@@ -60,7 +60,13 @@
     "iconPerson": "Pessoal - projeto de minha autoria",
     "iconDidatic": "Didatico - peojeto baseado em cursos",
 
-    "projectFrontText1": "Projeto 1 em portugues",
-    "projectFrontText2": "Projeto 2 em portugues"
+    "wasUsed": "Neste projeto foi utilizado :",
+
+    "titleProject1": "App tarefas",
+    "project1Description1": "App onde voce pode criar, alterar e deletar tarefas",
+    "project1Description2": "React | Javascrypt | Css | Html ...",
+    "": "",
+    "": "",
+    "": ""
   }
 }

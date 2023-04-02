@@ -6,6 +6,7 @@ import { CardsProjects } from "./ArrayProjects";
 
 import "./ProjectsMainSection2.css";
 
+
 export function ProjectsMainSection2() {
   const [t] = useTranslation();
 
@@ -17,7 +18,8 @@ export function ProjectsMainSection2() {
 
     return setobjModal(CardsProjects[index]);
   }
-  const testeee = CardsProjects.map((iten, index) => {
+
+  const ArrayCardsProjects = CardsProjects.map((iten, index) => {
     return (
       <div key={index} className="ProjectsMainSection2">
         <div
@@ -26,10 +28,19 @@ export function ProjectsMainSection2() {
         >
           <div className="ProjectsMainSection2Box3">
             <img src={iten.img1} alt="" />
-            <p>{iten.title1}</p>
+            <p>{t(iten.title)}</p>
           </div>
           <div className="ProjectsMainSection2Box4">
-            <p>{t(iten.text1)}</p>
+            <p className="CardsProjectsDescription1">
+              {t(iten.projectDescription)}
+            </p>
+            
+            <div className="CardsProjectsDescryption">
+              <p className="CardsProjectsUsedTecDesInfo">{t("wasUsed")}</p>
+              <p className="CardsProjectsUsedTecDescryption">
+                {t(iten.projectDescription2)}
+              </p>
+            </div>
           </div>
           <div className="ProjectsMainSection2Box5">
             <img
@@ -41,7 +52,19 @@ export function ProjectsMainSection2() {
             <img
               className="iconProjectCards"
               title=""
+              src={iten.iconBack}
+              alt=""
+            />
+            <img
+              className="iconProjectCards"
+              title=""
               src={iten.iconProprio}
+              alt=""
+            />
+            <img
+              className="iconProjectCards"
+              title=""
+              src={iten.iconDidatic}
               alt=""
             />
           </div>
@@ -52,7 +75,7 @@ export function ProjectsMainSection2() {
 
   return (
     <>
-      {testeee}
+      {ArrayCardsProjects}
       <ProjectsModal
         objModal={objModal}
         isOpen={openModal}

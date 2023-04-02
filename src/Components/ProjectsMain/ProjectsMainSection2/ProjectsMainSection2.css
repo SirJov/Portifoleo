@@ -28,6 +28,8 @@
 }
 .ProjectsMainSection2Box3 {
   display: flex;
+  padding-right: 2px;
+  border-right: 2px solid rgb(90, 79, 64);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -37,18 +39,33 @@
 .ProjectsMainSection2Box3 p {
   text-align: center;
 }
- 
+
 .ProjectsMainSection2 img {
   max-height: 64%;
 }
 
 .ProjectsMainSection2Box4 {
+  text-align: center;
+  padding: 10px 0px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   width: 68%;
   border-radius: 10px 10px 10px 10px;
+}
+
+.CardsProjectsDescription1 {
+  font-size: 14px;
+}
+.CardsProjectsUsedTecDescryption {
+  font-size: 70%;
+}
+.CardsProjectsDescryption {
+  text-align: center;
+}
+.CardsProjectsUsedTecDesInfo {
+  font-size: 60%;
+  margin-bottom: 3px;
 }
 
 .ProjectsMainSection2Box5 {

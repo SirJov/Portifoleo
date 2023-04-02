@@ -12,7 +12,7 @@ export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
         ></div>
         <div className="ProjectsModalBox1">
           <p>aaaaa</p>
-          <p>{objModal.text1}</p>
+          <p>{objModal.projectDescription1}</p>
         </div>
       </>
     );
