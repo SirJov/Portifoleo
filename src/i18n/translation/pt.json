@@ -58,6 +58,9 @@
 
     "ProjectsMainP1": "Guia de ícones do projeto",
     "iconPerson": "Pessoal - projeto de minha autoria",
-    "iconDidatic": "Didatico - peojeto baseado em cursos"
+    "iconDidatic": "Didatico - peojeto baseado em cursos",
+
+    "projectFrontText1": "Projeto 1 em portugues",
+    "projectFrontText2": "Projeto 2 em portugues"
   }
 }

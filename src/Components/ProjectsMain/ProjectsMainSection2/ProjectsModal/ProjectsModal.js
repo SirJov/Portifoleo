@@ -2,7 +2,7 @@ import React from "react";
 
 import "./ProjectsModal.css";
 
-export function ProjectsModal({ isOpen, setOpenModal }) {
+export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
   if (isOpen)
     return (
       <>
@@ -10,9 +10,11 @@ export function ProjectsModal({ isOpen, setOpenModal }) {
           className="ProjectModalBackground"
           onClick={() => setOpenModal(false)}
         ></div>
-        <div className="ProjectsModalBox1"></div>
+        <div className="ProjectsModalBox1">
+          <p>aaaaa</p>
+          <p>{objModal.text1}</p>
+        </div>
       </>
     );
   return null;
 }
- 

@@ -9,48 +9,14 @@ const CardsProjects = [
     title1: "Front React Tasks",
     iconFront: iconFront,
     iconProprio: iconProprio,
+    text1: "projectFrontText1",
   },
   {
     img1: imgNewFrontTasks1,
-    title1: "Front React Tasks",
+    title1: "Front React Tasks2",
     iconFront: iconFront,
     iconProprio: iconProprio,
-  },
-  {
-    img1: imgNewFrontTasks1,
-    title1: "Front React Tasks",
-    iconFront: iconFront,
-    iconProprio: iconProprio,
-  },
-  {
-    img1: imgNewFrontTasks1,
-    title1: "Front React Tasks",
-    iconFront: iconFront,
-    iconProprio: iconProprio,
-  },
-  {
-    img1: imgNewFrontTasks1,
-    title1: "Front React Tasks",
-    iconFront: iconFront,
-    iconProprio: iconProprio,
-  },
-  {
-    img1: imgNewFrontTasks1,
-    title1: "Front React Tasks",
-    iconFront: iconFront,
-    iconProprio: iconProprio,
-  },
-  {
-    img1: imgNewFrontTasks1,
-    title1: "Front React Tasks",
-    iconFront: iconFront,
-    iconProprio: iconProprio,
-  },
-  {
-    img1: imgNewFrontTasks1,
-    title1: "Front React Tasks",
-    iconFront: iconFront,
-    iconProprio: iconProprio,
+    text1: "projectFrontText2",
   },
 ];
 

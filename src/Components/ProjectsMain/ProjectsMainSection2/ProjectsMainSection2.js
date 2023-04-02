@@ -7,21 +7,29 @@ import { CardsProjects } from "./ArrayProjects";
 import "./ProjectsMainSection2.css";
 
 export function ProjectsMainSection2() {
-  const [openModal, setOpenModal] = useState(false);
+  const [t] = useTranslation();
 
+  const [openModal, setOpenModal] = useState(false);
+  const [objModal, setobjModal] = useState("");
+
+  function SetObjCardModal(index) {
+    setOpenModal(true);
+
+    return setobjModal(CardsProjects[index]);
+  }
   const testeee = CardsProjects.map((iten, index) => {
     return (
       <div key={index} className="ProjectsMainSection2">
         <div
           className="ProjectsMainSection2Box2"
-          onClick={() => setOpenModal(true)}
+          onClick={() => SetObjCardModal(index)}
         >
           <div className="ProjectsMainSection2Box3">
             <img src={iten.img1} alt="" />
             <p>{iten.title1}</p>
           </div>
           <div className="ProjectsMainSection2Box4">
-            <p></p>
+            <p>{t(iten.text1)}</p>
           </div>
           <div className="ProjectsMainSection2Box5">
             <img
@@ -42,12 +50,14 @@ export function ProjectsMainSection2() {
     );
   });
 
-  const [t] = useTranslation();
-
   return (
     <>
       {testeee}
-      <ProjectsModal isOpen={openModal} setOpenModal={setOpenModal} />
+      <ProjectsModal
+        objModal={objModal}
+        isOpen={openModal}
+        setOpenModal={setOpenModal}
+      />
     </>
   );
 }
