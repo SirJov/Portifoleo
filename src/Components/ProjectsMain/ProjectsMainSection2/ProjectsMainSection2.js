@@ -6,7 +6,6 @@ import { CardsProjects } from "./ArrayProjects";
 
 import "./ProjectsMainSection2.css";
 
-
 export function ProjectsMainSection2() {
   const [t] = useTranslation();
 
@@ -26,47 +25,49 @@ export function ProjectsMainSection2() {
           className="ProjectsMainSection2Box2"
           onClick={() => SetObjCardModal(index)}
         >
-          <div className="ProjectsMainSection2Box3">
-            <img src={iten.img1} alt="" />
-            <p>{t(iten.title)}</p>
-          </div>
-          <div className="ProjectsMainSection2Box4">
-            <p className="CardsProjectsDescription1">
-              {t(iten.projectDescription)}
-            </p>
-            
-            <div className="CardsProjectsDescryption">
-              <p className="CardsProjectsUsedTecDesInfo">{t("wasUsed")}</p>
-              <p className="CardsProjectsUsedTecDescryption">
-                {t(iten.projectDescription2)}
-              </p>
+          <div className="ProjectsMainSection2Box2-2">
+            <div className="ProjectsMainSection2Box3">
+              <img src={iten.img1} alt="" />
+              <p>{t(iten.title)}</p>
             </div>
-          </div>
-          <div className="ProjectsMainSection2Box5">
-            <img
-              className="iconProjectCards"
-              src={iten.iconFront}
-              title=""
-              alt=""
-            />
-            <img
-              className="iconProjectCards"
-              title=""
-              src={iten.iconBack}
-              alt=""
-            />
-            <img
-              className="iconProjectCards"
-              title=""
-              src={iten.iconProprio}
-              alt=""
-            />
-            <img
-              className="iconProjectCards"
-              title=""
-              src={iten.iconDidatic}
-              alt=""
-            />
+            <div className="ProjectsMainSection2Box4">
+              <p className="CardsProjectsDescription1">
+                {t(iten.projectDescription)}
+              </p>
+
+              <div className="CardsProjectsDescryption">
+                <p className="CardsProjectsUsedTecDesInfo">{t("wasUsed")}</p>
+                <p className="CardsProjectsUsedTecDescryption">
+                  {t(iten.projectDescription2)}
+                </p>
+              </div>
+            </div>
+            <div className="ProjectsMainSection2Box5">
+              <img
+                className="iconProjectCards"
+                src={iten.iconFront}
+                title=""
+                alt=""
+              />
+              <img
+                className="iconProjectCards"
+                title=""
+                src={iten.iconBack}
+                alt=""
+              />
+              <img
+                className="iconProjectCards"
+                title=""
+                src={iten.iconProprio}
+                alt=""
+              />
+              <img
+                className="iconProjectCards"
+                title=""
+                src={iten.iconDidatic}
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>

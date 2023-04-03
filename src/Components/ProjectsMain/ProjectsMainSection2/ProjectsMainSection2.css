@@ -10,11 +10,10 @@
 
 .ProjectsMainSection2Box2 {
   display: flex;
-  gap: 2%;
-  margin: 20px 0px;
-  padding: 5px;
   animation: EfectDiv 0.5s forwards;
   border-radius: 5px 5px 5px 5px;
+  justify-content: center;
+  align-items: center;
   width: 430px;
   height: 180px;
   transition: all 0.1s ease-in-out;
@@ -26,7 +25,14 @@
     rgba(0, 255, 76, 0.185)
   );
 }
+.ProjectsMainSection2Box2-2 {
+  background-color: rgba(127, 255, 212, 0.418);
+  display: flex;
+  width: 420px;
+  height: 170px;
+}
 .ProjectsMainSection2Box3 {
+  background-color: aqua;
   display: flex;
   padding-right: 2px;
   border-right: 2px solid rgb(90, 79, 64);
@@ -34,14 +40,14 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  width: 30%;
+  width: 110px;
 }
 .ProjectsMainSection2Box3 p {
   text-align: center;
 }
 
 .ProjectsMainSection2 img {
-  max-height: 64%;
+  max-height: 100px;
 }
 
 .ProjectsMainSection2Box4 {
