@@ -26,13 +26,11 @@
   );
 }
 .ProjectsMainSection2Box2-2 {
-  background-color: rgba(127, 255, 212, 0.418);
   display: flex;
   width: 420px;
   height: 170px;
 }
 .ProjectsMainSection2Box3 {
-  background-color: aqua;
   display: flex;
   padding-right: 2px;
   border-right: 2px solid rgb(90, 79, 64);
@@ -40,14 +38,14 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  width: 110px;
+  width: 120px;
 }
 .ProjectsMainSection2Box3 p {
   text-align: center;
 }
 
 .ProjectsMainSection2 img {
-  max-height: 100px;
+  max-height: 90px;
 }
 
 .ProjectsMainSection2Box4 {
@@ -56,7 +54,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 68%;
   border-radius: 10px 10px 10px 10px;
 }
 
@@ -64,13 +61,13 @@
   font-size: 14px;
 }
 .CardsProjectsUsedTecDescryption {
-  font-size: 70%;
+  font-size: 12px;
 }
 .CardsProjectsDescryption {
   text-align: center;
 }
 .CardsProjectsUsedTecDesInfo {
-  font-size: 60%;
+  font-size: 11px;
   margin-bottom: 3px;
 }
 
@@ -83,14 +80,13 @@
   width: 7%;
 }
 .iconProjectCards {
-  width: 30px;
+  width: 20px;
 }
 
 .ProjectsMainSection2Box2:hover {
   width: 450px;
   height: 195px;
   cursor: pointer;
-  font-size: 110%;
 }
 
 @keyframes EfectDiv {

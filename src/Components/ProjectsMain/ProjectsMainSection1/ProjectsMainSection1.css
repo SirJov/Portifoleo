@@ -31,9 +31,9 @@
   font-size: 11px;
 }
 .iconProject {
-  width: 20px;
-  height: 25px;
+  width: 15px;
 }
+
 @media (max-width: 720px) {
   #borda1Project {
     width: 20%;
