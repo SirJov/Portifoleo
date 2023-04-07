@@ -34,7 +34,9 @@ export function ProjectsMainSection2() {
               <p className="CardsProjectsDescription1">
                 {t(iten.projectDescription)}
               </p>
-
+              <div>
+                <p className="BtnProjectsCardClick">Click</p>
+              </div>
               <div className="CardsProjectsDescryption">
                 <p className="CardsProjectsUsedTecDesInfo">{t("wasUsed")}</p>
                 <p className="CardsProjectsUsedTecDescryption">
