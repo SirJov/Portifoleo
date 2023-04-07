@@ -106,14 +106,35 @@
 }
 
 @media (max-width: 720px) {
-  .ProjectsMainSection2Box2 {
-    width: 60vw;
-  }
   .ProjectsMainSection2Box2:hover {
     box-shadow: 0px 0px 10px rgb(90, 82, 67);
   }
 }
+
+@media (max-width: 500px) {
+  .ProjectsMainSection2Box2 {
+    width: 80vw;
+  }
+}
 @media (max-width: 400px) {
+  .ProjectsMainSection2Box5 {
+    display: none;
+  }
+}
+@media (max-width: 300px) {
+  .ProjectsMainSection2Box2 {
+    width: 70vw;
+  }
+  .ProjectsMainSection2Box2-2 {
+    display: flex;
+    justify-content: center;
+  }
+  .ProjectsMainSection2Box4 {
+    display: none;
+  }
+  .ProjectsMainSection2Box3 {
+    border-right: none;
+  }
   .ProjectsMainSection2Box5 {
     display: none;
   }

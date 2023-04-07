@@ -17,6 +17,28 @@ const CardsProjects = [
     projectDescription: "project1Description1",
     projectDescription2: "project1Description2",
   },
+  {
+    img1: imgNewFrontTasks1,
+    title: "titleProject1",
+    iconFront: iconFront,
+    iconBack: "",
+    iconProprio: iconProprio,
+    iconDidatic: "",
+
+    projectDescription: "project1Description1",
+    projectDescription2: "project1Description2",
+  },
+  {
+    img1: imgNewFrontTasks1,
+    title: "titleProject1",
+    iconFront: iconFront,
+    iconBack: "",
+    iconProprio: iconProprio,
+    iconDidatic: "",
+
+    projectDescription: "project1Description1",
+    projectDescription2: "project1Description2",
+  },
 ];
 
 export { CardsProjects };
