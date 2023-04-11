@@ -25,7 +25,20 @@ export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
               </div>
             </div>
             <div className="modalDivBody">
-              <p>{t(objModal.project1Description3)}</p>
+              <div className="modalBox1">
+                <img className="bloco" src={objModal.gif} alt=""></img>
+                <p className="descri">{t(objModal.project1Description3)}</p>
+              </div>
+              <div className="modalBox2">
+                <div>
+                  <p></p>
+                </div>
+                <div>
+                  <h5></h5>
+                  <p></p>
+                </div>
+              </div>
+              <div className="modalBox3"></div>
             </div>
           </div>
         </div>
