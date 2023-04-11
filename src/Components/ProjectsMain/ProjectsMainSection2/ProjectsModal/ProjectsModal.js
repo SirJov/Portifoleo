@@ -31,14 +31,23 @@ export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
               </div>
               <div className="modalBox2">
                 <div>
-                  <p></p>
+                  <p>Este projeto bla bla bla</p>
                 </div>
                 <div>
-                  <h5></h5>
-                  <p></p>
+                  <h5>Tec usadas</h5>
+                  <p>Bla Bla Bla</p>
                 </div>
               </div>
-              <div className="modalBox3"></div>
+              <div className="modalBox3">
+                <div>
+                  <p>Tec usadas</p>
+                  <a></a>
+                </div>
+                <div>
+                  <p>Tec usadas</p>
+                  <a></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
