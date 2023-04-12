@@ -1,6 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
+import { BtnLinkGitHub } from "./btnLinkGitHub/btnLinkGitHub";
+import { BtnLinkVercel } from "./btnLinkVercel/btnLinkVercel";
+
 import "./ProjectsModal.css";
 
 export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
@@ -39,14 +42,8 @@ export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
                 </div>
               </div>
               <div className="modalBox3">
-                <div>
-                  <p></p>
-                  <a></a>
-                </div>
-                <div>
-                  <p>ASdASdASd</p>
-                  <a></a>
-                </div>
+                <BtnLinkGitHub objModal={objModal} />
+                <BtnLinkVercel objModal={objModal} />
               </div>
             </div>
           </div>
