@@ -66,7 +66,8 @@
     "project1Description1": "App where you can create, change and delete tasks",
     "project1Description2": "React | Javascrypt | Css | Html ...",
     "project1Description3": "In this app, you can create tasks to organize yourself in your day-to-day life, being able to complete, redo and delete them whenever you want. With a simple and responsive design, it can be used on both mobile and desktop.",
-    "": "",
+
+    "descriptionCreateProject": "",
     "": ""
   }
 }
