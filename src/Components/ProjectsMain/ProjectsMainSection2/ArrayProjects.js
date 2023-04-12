@@ -19,6 +19,15 @@ const CardsProjects = [
     projectDescription: "project1Description1",
     projectDescription2: "project1Description2",
     project1Description3: "project1Description3",
+
+    descriptionCreateProject: "",
+    usedInProject: "",
+
+    btnGit: true,
+    btnVercel: true,
+
+    linkGithub: "https://github.com/SirJov/FRONT-TASKS-1-New",
+    linkVercel: "https://front-tasks-1-new.vercel.app/",
   },
 ];
 

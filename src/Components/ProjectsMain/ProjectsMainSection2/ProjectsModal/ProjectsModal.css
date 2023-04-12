@@ -76,11 +76,11 @@
   margin-bottom: 20px;
 }
 .modalBox2 div:first-of-type {
-  background-color: aliceblue;
+  background-color: rgb(138, 138, 138);
   width: 50%;
 }
 .modalBox2 div:last-of-type {
-  background-color: aliceblue;
+  background-color: rgb(121, 121, 121);
   width: 50%;
 }
 
@@ -90,10 +90,10 @@
   gap: 20px;
 }
 .modalBox3 div:first-of-type {
-  background-color: aliceblue;
+  background-color: rgb(126, 126, 126);
   width: 50%;
 }
 .modalBox3 div:last-of-type {
-  background-color: aliceblue;
+  background-color: rgb(107, 107, 107);
   width: 50%;
 }
