@@ -1,0 +1,7 @@
+.modalBox3 div:first-of-type {
+  width: 50%;
+  text-align: center;
+}
+.modalBox3 div:first-of-type p {
+  margin-bottom: 20px;
+}

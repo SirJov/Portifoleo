@@ -1,0 +1,8 @@
+.modalBox3 div:last-of-type {
+  width: 50%;
+  text-align: center;
+}
+
+.modalBox3 div:last-of-type p {
+  margin-bottom: 20px;
+}
