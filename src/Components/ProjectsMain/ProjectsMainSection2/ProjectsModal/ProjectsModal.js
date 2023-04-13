@@ -20,7 +20,6 @@ export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
           <div>
             <div className="modalDivHeader">
               <div>
-                <img className="img1Modal" src={objModal.img1} alt="" />
                 <p>{t(objModal.title)}</p>
               </div>
               <div>
@@ -34,14 +33,22 @@ export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
               </div>
               <div className="modalBox2">
                 <div>
-                  <p>Este projeto bla bla bla</p>
+                  <p>{t("project1DescriptionCreateProject")}</p>
                 </div>
                 <div>
                   <h6>{t("wasUsed")}</h6>
-                  <p>Bla Bla Bla</p>
+                  <p>{t("usedInProject")}</p>
                 </div>
               </div>
               <div className="modalBox3">
+                <div>
+                  <p>{t("project1DescriptionGit")}</p>
+                </div>
+                <div>
+                  <p>{t("project1DescriptionVercel")}</p>
+                </div>
+              </div>
+              <div className="modalBox4">
                 <BtnLinkGitHub objModal={objModal} />
                 <BtnLinkVercel objModal={objModal} />
               </div>

@@ -20,11 +20,14 @@ const CardsProjects = [
     projectDescription2: "project1Description2",
     project1Description3: "project1Description3",
 
-    descriptionCreateProject: "",
+    project1DescriptionCreateProject: "project1DescriptionCreateProject",
     usedInProject: "",
 
     btnGit: true,
     btnVercel: true,
+
+    project1descriptionVercel: "project1descriptionVercel",
+    project1descriptionGit: "project1descriptionGit",
 
     linkGithub: "https://github.com/SirJov/FRONT-TASKS-1-New",
     linkVercel: "https://front-tasks-1-new.vercel.app/",

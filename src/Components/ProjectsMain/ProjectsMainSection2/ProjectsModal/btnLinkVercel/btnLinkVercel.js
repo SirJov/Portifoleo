@@ -9,7 +9,6 @@ export function BtnLinkVercel({ objModal }) {
   if (objModal.btnVercel) {
     return (
       <div>
-        <p>asdasd</p>
         <a href={objModal.linkVercel} target="_blank">
           Site
         </a>
