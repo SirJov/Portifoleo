@@ -17,7 +17,7 @@ export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
           onClick={() => setOpenModal(false)}
         ></div>
         <div className="ProjectsModalBox1">
-          <div>
+          <div className="ModalContainer">
             <div className="modalDivHeader">
               <div>
                 <p>{t(objModal.title)}</p>
@@ -37,7 +37,7 @@ export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
                 </div>
                 <div>
                   <h6>{t("wasUsed")}</h6>
-                  <p>{t("usedInProject")}</p>
+                  <p>{objModal.usedInProject}</p>
                 </div>
               </div>
               <div className="modalBox3">

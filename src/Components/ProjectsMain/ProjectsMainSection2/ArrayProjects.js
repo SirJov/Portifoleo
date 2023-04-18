@@ -8,6 +8,8 @@ import iconDidatic from "../../../assets/AssetsProjects/iconDidatic.webp";
 
 const CardsProjects = [
   {
+    //Front Tasks 1 New
+
     img1: imgNewFrontTasks1,
     gif: gifProject1,
     title: "titleProject1",
@@ -21,7 +23,7 @@ const CardsProjects = [
     project1Description3: "project1Description3",
 
     project1DescriptionCreateProject: "project1DescriptionCreateProject",
-    usedInProject: "",
+    usedInProject: "React, Javascrypt, HTML, CSS",
 
     btnGit: true,
     btnVercel: true,

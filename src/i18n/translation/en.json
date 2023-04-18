@@ -67,7 +67,7 @@
     "project1Description2": "React | Javascrypt | Css | Html ...",
     "project1Description3": "In this app, you can create tasks to organize yourself in your day-to-day life, being able to complete, redo and delete them whenever you want. With a simple and responsive design, it can be used on both mobile and desktop.",
 
-    "project1DescriptionCreateProject": "",
+    "project1DescriptionCreateProject": "My first project in react, front project that consumes a tasks API, project with responsive support for desktop and mobile. Requests made in axios. It is being refactored as I advance my knowledge in react.",
 
     "project1DescriptionVercel": "This project is hosted at Vercel and can be accessed using the button below.",
     "project1DescriptionGit": "The code for this project is available by clicking the button below."
