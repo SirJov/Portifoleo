@@ -34,6 +34,7 @@
   justify-content: space-between;
   margin-bottom: 30px;
 }
+
 .modalDivHeader div:first-of-type {
   display: flex;
   align-items: center;
@@ -63,6 +64,7 @@
 .modalBox1 {
   display: flex;
   margin-bottom: 80px;
+  align-items: center;
 }
 .bloco {
   height: 200px;
@@ -116,4 +118,25 @@
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .bloco {
+    margin-left: 20px;
+    height: 100px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(173, 255, 156);
+  }
+  .ModalContainer {
+    font-size: 13px;
+  }
+  .descri {
+    position: inherit;
+    margin: 0px 20px;
+  }
+}
+@media (max-width: 400px) {
+}
+@media (max-width: 300px) {
 }
