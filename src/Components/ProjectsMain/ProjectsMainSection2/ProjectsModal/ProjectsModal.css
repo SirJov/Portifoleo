@@ -173,6 +173,14 @@
     display: flex;
     align-items: center;
   }
+  .bloco {
+    margin-left: 0px;
+    margin-bottom: 30px;
+    height: 100px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(173, 255, 156);
+  }
   .descri {
     position: inherit;
     margin: 10px 20px;
