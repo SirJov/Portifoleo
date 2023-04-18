@@ -1,5 +1,7 @@
-import imgNewFrontTasks1 from "../../../assets/AssetsProjects/imgNewFrontTasks1.webp";
-import gifProject1 from "../../../assets/AssetsProjects/project1/gifproject1.gif";
+import imgNewFrontTasks1 from "../../../assets/AssetsProjects/projects/project1/imgNewFrontTasks1.webp";
+import imgAPI from "../../../assets/AssetsProjects/projects/project2/imgProjectAPI.png";
+
+import gifProject1 from "../../../assets/AssetsProjects/projects/project1/gifproject1.gif";
 
 import iconFront from "../../../assets/AssetsProjects/iconFront.webp";
 import iconBack from "../../../assets/AssetsProjects/iconBack.webp";
@@ -19,17 +21,45 @@ const CardsProjects = [
     iconDidatic: "",
 
     projectDescription: "project1Description1",
-    projectDescription2: "project1Description2",
-    project1Description3: "project1Description3",
+    projectDescription2: "React, Javascrypt...",
+    projectDescription3: "project1Description3",
 
-    project1DescriptionCreateProject: "project1DescriptionCreateProject",
+    projectDescriptionCreateProject: "project1DescriptionCreateProject",
     usedInProject: "React, Javascrypt, HTML, CSS",
 
     btnGit: true,
     btnVercel: true,
 
-    project1descriptionVercel: "project1descriptionVercel",
-    project1descriptionGit: "project1descriptionGit",
+    projectdescriptionVercel: "project1descriptionVercel",
+    projectdescriptionGit: "project1descriptionGit",
+
+    linkGithub: "https://github.com/SirJov/FRONT-TASKS-1-New",
+    linkVercel: "https://front-tasks-1-new.vercel.app/",
+  },
+
+  {
+    //Back-end  API tarefas
+
+    img1: imgAPI,
+    gif: "",
+    title: "titleProject1",
+    iconFront: "",
+    iconBack: iconBack,
+    iconProprio: iconProprio,
+    iconDidatic: "",
+
+    projectDescription: "project1Description1",
+    projectDescription2: "React, Javascrypt...",
+    projectDescription3: "project1Description3",
+
+    projectDescriptionCreateProject: "project1DescriptionCreateProject",
+    usedInProject: "React, Javascrypt, HTML, CSS",
+
+    btnGit: true,
+    btnVercel: true,
+
+    projectdescriptionVercel: "project1descriptionVercel",
+    projectdescriptionGit: "project1descriptionGit",
 
     linkGithub: "https://github.com/SirJov/FRONT-TASKS-1-New",
     linkVercel: "https://front-tasks-1-new.vercel.app/",

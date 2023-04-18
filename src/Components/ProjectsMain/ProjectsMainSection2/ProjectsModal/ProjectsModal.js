@@ -29,11 +29,11 @@ export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
             <div className="modalDivBody">
               <div className="modalBox1">
                 <img className="bloco" src={objModal.gif} alt=""></img>
-                <p className="descri">{t(objModal.project1Description3)}</p>
+                <p className="descri">{t(objModal.projectDescription3)}</p>
               </div>
               <div className="modalBox2">
                 <div>
-                  <p>{t("project1DescriptionCreateProject")}</p>
+                  <p>{t(objModal.projectDescriptionCreateProject)}</p>
                 </div>
                 <div>
                   <h6>{t("wasUsed")}</h6>
@@ -42,10 +42,10 @@ export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
               </div>
               <div className="modalBox3">
                 <div>
-                  <p>{t("project1DescriptionGit")}</p>
+                  <p>{t(objModal.projectDescriptionGit)}</p>
                 </div>
                 <div>
-                  <p>{t("project1DescriptionVercel")}</p>
+                  <p>{t(objModal.projectDescriptionVercel)}</p>
                 </div>
               </div>
               <div className="modalBox4">

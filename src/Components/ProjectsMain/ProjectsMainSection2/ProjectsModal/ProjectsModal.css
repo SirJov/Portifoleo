@@ -169,12 +169,18 @@
   }
 }
 @media (max-height: 650px) {
+  .ProjectsModalBox1 {
+    display: flex;
+    align-items: center;
+  }
   .modalDivBody {
     display: flex;
     align-items: center;
   }
   .ModalContainer {
     font-size: 13px;
+    height: 100%;
+    justify-content: space-evenly;
   }
   .bloco {
     display: none;
@@ -194,7 +200,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     justify-content: center;
     align-items: center;
   }

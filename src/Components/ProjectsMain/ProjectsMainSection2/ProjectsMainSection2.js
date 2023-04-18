@@ -40,7 +40,7 @@ export function ProjectsMainSection2() {
               <div className="CardsProjectsDescryption">
                 <p className="CardsProjectsUsedTecDesInfo">{t("wasUsed")}</p>
                 <p className="CardsProjectsUsedTecDescryption">
-                  {t(iten.projectDescription2)}
+                  {iten.projectDescription2}
                 </p>
               </div>
             </div>
