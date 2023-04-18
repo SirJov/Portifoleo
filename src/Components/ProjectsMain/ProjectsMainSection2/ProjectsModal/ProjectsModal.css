@@ -173,6 +173,9 @@
     display: flex;
     align-items: center;
   }
+  .ModalContainer {
+    font-size: 13px;
+  }
   .bloco {
     margin-left: 0px;
     margin-bottom: 30px;
