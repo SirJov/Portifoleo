@@ -87,6 +87,8 @@
   display: flex;
   gap: 20px;
   margin-bottom: 40px;
+  align-items: center;
+  height: 23vh;
 }
 .modalBox2 div:first-of-type {
   width: 50%;

@@ -66,9 +66,6 @@
     "project1Description1": "App onde voce pode criar, alterar e deletar tarefas",
     "project1Description3": "Nesse app você poderá criar tarefas para se organizar em seu dia a dia, podendo completá-las, refazê-las e deletá-las quando quiser. Com design simples e responsivo, podendo ser usado tanto em mobile quanto desktop.",
 
-    "project1DescriptionCreateProject": "Meu primeiro projeto em React, projeto front que consome uma API de tarefas, projeto com suporte responsivo para desktop e mobile. Requisições feitas em axios. Ele está sendo refatorado à medida que avanço meu conhecimento em React.",
-
-    "project1DescriptionVercel": "Este projeto encontra-se hospedado na Vercel e pode ser acessado pelo botão abaixo.",
-    "project1DescriptionGit": "O código desse projeto esta disponível Clicando no botão abaixo. "
+    "project1DescriptionCreateProject": "Meu primeiro projeto em React, projeto front que consome uma API de tarefas, projeto com suporte responsivo para desktop e mobile. Requisições feitas em axios. Ele está sendo refatorado à medida que avanço meu conhecimento em React."
   }
 }
