@@ -11,7 +11,7 @@ const Dark = `
 
 .About1Borda1 {filter: invert(70%);}
 .Aside li a {color: rgb(0, 194, 13);}
-#AboutSection3Card {background-image: linear-gradient(45deg, rgba(29, 27, 52, 0.71), rgb(1, 95, 27));}
+#AboutSection3Card {background-image: linear-gradient(45deg, rgba(51, 255, 0, 0.103), rgba(0, 204, 255, 0.295));}
 
 .ProjectsModalBox1 {background-image: linear-gradient(0deg, rgba(1, 11, 12, 0.893), rgb(0, 0, 0),rgba(1, 11, 12, 0.893));}
 .ProjectsMainSection2 {color: rgb(180, 178, 150);}
