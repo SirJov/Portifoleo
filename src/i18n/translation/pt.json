@@ -62,10 +62,14 @@
 
     "wasUsed": "Neste projeto foi utilizado :",
 
-    "titleProject1": "App tarefas",
-    "project1Description1": "App onde voce pode criar, alterar e deletar tarefas",
-    "project1Description3": "Nesse app você poderá criar tarefas para se organizar em seu dia a dia, podendo completá-las, refazê-las e deletá-las quando quiser. Com design simples e responsivo, podendo ser usado tanto em mobile quanto desktop.",
+    "titleProjectFrontTarefas": "App tarefas",
+    "projectFrontTarefasDescription1": "App onde voce pode criar, alterar e deletar tarefas",
+    "projectFrontTarefasDescription3": "Nesse app você poderá criar tarefas para se organizar em seu dia a dia, podendo completá-las, refazê-las e deletá-las quando quiser. Com design simples e responsivo, podendo ser usado tanto em mobile quanto desktop.",
+    "projectFrontTarefasDescriptionCreateProject": "Meu primeiro projeto em React, projeto front que consome uma API de tarefas, projeto com suporte responsivo para desktop e mobile. Requisições feitas em axios. Ele está sendo refatorado à medida que avanço meu conhecimento em React.",
 
-    "project1DescriptionCreateProject": "Meu primeiro projeto em React, projeto front que consome uma API de tarefas, projeto com suporte responsivo para desktop e mobile. Requisições feitas em axios. Ele está sendo refatorado à medida que avanço meu conhecimento em React."
+    "titleProjectApiTask": "API Tarefas",
+    "projectApiTaskDescription1": "API CRUD para gerenciamento de tarefas, to-do-list.",
+    "projectApiTaskDescription3": "API que gerencia tarefas, salvando-as em um banco de dados MYSQL hospedado na planetscale.com, se resume em um CRUD básico em NodeJs e esta hospedada na Vercel.",
+    "projectApiTaskDescriptionCreateProject": "Pensa em um projeto divertido para quem está começando na programação back-end. Após estudar Javascrypt e Node, decidi criar este projeto para fixar o que foi aprendido e, desbravar as dificuldades e obstáculos que criar uma aplicação back-end em Node apresenta para um iniciante na programação."
   }
 }

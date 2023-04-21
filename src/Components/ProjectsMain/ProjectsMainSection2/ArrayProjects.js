@@ -1,7 +1,8 @@
 import imgNewFrontTasks1 from "../../../assets/AssetsProjects/projects/project1/imgNewFrontTasks1.webp";
-import imgAPI from "../../../assets/AssetsProjects/projects/project2/imgProjectAPI.png";
+import imgAPItask from "../../../assets/AssetsProjects/projects/project2/imgProjectAPI.png";
 
-import gifProject1 from "../../../assets/AssetsProjects/projects/project1/gifproject1.gif";
+import gifProjectFrontTasks from "../../../assets/AssetsProjects/projects/project1/gifproject1.gif";
+import gifProjectApiTask from "../../../assets/AssetsProjects/projects/project2/Api Task.png";
 
 import iconFront from "../../../assets/AssetsProjects/iconFront.webp";
 import iconBack from "../../../assets/AssetsProjects/iconBack.webp";
@@ -12,57 +13,53 @@ const CardsProjects = [
   {
     //Front Tasks 1 New
 
-    img1: imgNewFrontTasks1,
-    gif: gifProject1,
-    title: "titleProject1",
+    img1: imgNewFrontTasks1, //icone redondo do projeto
+    gif: gifProjectFrontTasks, //gif 80x600 do projeto ou img com a mesma resoluçao
+    title: "titleProjectFrontTarefas", //nome do projeto
+
     iconFront: iconFront,
     iconBack: "",
     iconProprio: iconProprio,
     iconDidatic: "",
 
-    projectDescription: "project1Description1",
-    projectDescription2: "React, Javascrypt...",
-    projectDescription3: "project1Description3",
+    projectDescription: "projectFrontTarefasDescription1", //pequeno resumo da funcionalidade do projeto
+    projectDescription2: "React, Javascrypt...", //previa das tecnologias usadas
+    projectDescription3: "projectFrontTarefasDescription3", //texto completo das funcionalidades
 
-    projectDescriptionCreateProject: "project1DescriptionCreateProject",
-    usedInProject: "React, Javascrypt, HTML, CSS",
+    projectDescriptionCreateProject:
+      "projectFrontTarefasDescriptionCreateProject", //texto completo sobre como foi criado o projeto
+    usedInProject: "React, Javascrypt, HTML, CSS.", //todas as tecnologias usadas
 
-    btnGit: true,
-    btnVercel: true,
+    btnGit: true, //verdadeiro para ter botao git
+    btnVercel: true, //verdadeiro para ter botao Vercel
 
-    projectdescriptionVercel: "project1descriptionVercel",
-    projectdescriptionGit: "project1descriptionGit",
-
-    linkGithub: "https://github.com/SirJov/FRONT-TASKS-1-New",
-    linkVercel: "https://front-tasks-1-new.vercel.app/",
+    linkGithub: "https://github.com/SirJov/FRONT-TASKS-1-New", //link Git se tiver
+    linkVercel: "https://front-tasks-1-new.vercel.app/", //link vercel se tiver
   },
 
   {
     //Back-end  API tarefas
 
-    img1: imgAPI,
-    gif: "",
-    title: "titleProject1",
+    img1: imgAPItask,
+    gif: gifProjectApiTask,
+    title: "titleProjectApiTask",
     iconFront: "",
     iconBack: iconBack,
     iconProprio: iconProprio,
     iconDidatic: "",
 
-    projectDescription: "project1Description1",
-    projectDescription2: "React, Javascrypt...",
-    projectDescription3: "project1Description3",
+    projectDescription: "projectApiTaskDescription1",
+    projectDescription2: "Node, Javascrypt...",
+    projectDescription3: "projectApiTaskDescription3",
 
-    projectDescriptionCreateProject: "project1DescriptionCreateProject",
-    usedInProject: "React, Javascrypt, HTML, CSS",
+    projectDescriptionCreateProject: "projectApiTaskDescriptionCreateProject",
+    usedInProject: "Node, Javascrypt, Express, Mysql.",
 
     btnGit: true,
-    btnVercel: true,
+    btnVercel: false,
 
-    projectdescriptionVercel: "project1descriptionVercel",
-    projectdescriptionGit: "project1descriptionGit",
-
-    linkGithub: "https://github.com/SirJov/FRONT-TASKS-1-New",
-    linkVercel: "https://front-tasks-1-new.vercel.app/",
+    linkGithub: "https://github.com/SirJov/API-TASKS-1",
+    linkVercel: "",
   },
 ];
 

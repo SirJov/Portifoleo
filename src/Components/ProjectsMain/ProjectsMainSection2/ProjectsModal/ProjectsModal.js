@@ -40,7 +40,7 @@ export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
                   <p>{objModal.usedInProject}</p>
                 </div>
               </div>
-
+ 
               <div className="modalBox4">
                 <BtnLinkGitHub objModal={objModal} />
                 <BtnLinkVercel objModal={objModal} />
