@@ -40,11 +40,14 @@ export function AboutSection3() {
             target="_blank"
           >
             {t("A2-AboutSection3Courses")}
-          </a> 
+          </a>
         </div>
         <p className="ThirdPAboutSection3">{t("P3-1AboutSection3")}</p>
         <div className="AboutSection3CardsBox">
           <AboutSection3Cards />
+        </div>
+        <div>
+          <p>{t("obsMsg")}</p>
         </div>
       </div>
       <p></p>

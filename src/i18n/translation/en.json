@@ -35,7 +35,7 @@
     "L3AboutSection2": "Intuitive so that people at any age can understand how the application works.",
 
     "P1-1AboutSection3": "I'm still looking to get my first job in the area of ​​programming, I'm currently following online courses and I'm still developing personal projects.For more than a year, I studied on the ",
-    "P1-2AboutSection3": " online course platform, where I learned and practiced many things on some topics and earned several certificates that I am making available for viewing below.",
+    "P1-2AboutSection3": " online course platform, where I learned and practiced many things about programming and earned several certificates that I am making available for viewing below.",
     "P2-1AboutSection3": "I am currently focusing on 2 more specific courses on the ",
     "P2-2AboutSection3": " platform, they are more focused courses for the Front-end from basic to advanced and I'm doing a lot of research on the internet of specific contents and problems that I encounter during the creation of my projects. Below are links to the courses I am currently focusing my studies on.",
     "A1-AboutSection3Courses": "Javascrypt-Modern-Basic/Avanced",
@@ -55,6 +55,8 @@
     "PedreiroAboutSection3": "Experience in small constructions and maintenance in masonry, working for many years with my father, who was a foreman for a large Brazilian construction company, I was able to learn a lot about the profession of mason.",
     "CarpintariaAboutSection3": "Structures for roofs and linings, among other services in wood, are also among my work experiences.",
     "EstoquistaAboutSection3": "Role I currently play in São Bernardino-SC, checking and organizing the stock of an electrical products and building materials store. I also worked in downtown Curitiba in a CCTV store as a stock assistant until I was promoted to salesman.",
+
+    "obsMsg": "All the images shown on the cards are of work done and places I've been.",
 
     "ProjectsMainP1": "Project icon guide",
     "iconPerson": "Personal - project of my own",

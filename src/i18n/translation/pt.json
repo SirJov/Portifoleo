@@ -35,7 +35,7 @@
     "L3AboutSection2": "Intuitivo para que pessoas de qualquer idade possam entender como o aplicativo funciona.",
 
     "P1-1AboutSection3": "Ainda estou à procura do meu primeiro emprego na área da programação, atualmente sigo cursos online e ainda desenvolvo projetos pessoais. Por mais de um ano, estudei na plataforma de cursos online ",
-    "P1-2AboutSection3": ", onde aprendi e pratiquei muitas coisas sobre alguns temas e ganhei diversos certificados que estou disponibilizando para visualização logo abaixo.",
+    "P1-2AboutSection3": ", onde aprendi e pratiquei muitas coisas sobre programação e ganhei diversos certificados que estou disponibilizando para visualização logo abaixo.",
     "P2-1AboutSection3": "Atualmente estou focando em 2 cursos mais específicos na plataforma ",
     "P2-2AboutSection3": " são cursos mais focados para o Front-end do básico ao avançado e estou fazendo muitas pesquisas pela internet de conteúdos específicos e problemas que encontro durante a criação dos meus projetos. Abaixo estão os links dos cursos em que estou focando meus estudos atualmente.",
     "A1-AboutSection3Courses": "Javascrypt-Moderno-Basico/Avançado",
@@ -55,6 +55,8 @@
     "PedreiroAboutSection3": "Experiência em pequenas construções e manutenções em alvenaria, por trabalhar muitos anos com meu pai, que era mestre de obras de uma grande construtora brasileira, pude aprender muito sobre a profissão de pedreiro.",
     "CarpintariaAboutSection3": "Estruturas para telhados e forros, entre outros serviços em madeira, também estão entre minhas experiências de trabalho.",
     "EstoquistaAboutSection3": "Função que exerço atualmente em São Bernardino-SC, verificando e organizando o estoque de uma loja de produtos elétricos e materiais de construção. Também trabalhei no centro de Curitiba em uma loja de CFTV como auxiliar de estoque até ser promovido a vendedor.",
+
+    "obsMsg":"Todas as imagens mostradas nos cards são de trabalhos realizados e locais por onde passei.",
 
     "ProjectsMainP1": "Guia de ícones do projeto",
     "iconPerson": "Pessoal - projeto de minha autoria",
