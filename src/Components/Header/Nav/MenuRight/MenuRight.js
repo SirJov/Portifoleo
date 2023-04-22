@@ -28,7 +28,7 @@ export function MenuRight() {
         <li id="curri">
           <a
             className="la2"
-            href="https://www.mediafire.com/file/p5l4875a4o8jw6m/Herico_Lima.pdf/file"
+            href="https://www.mediafire.com/file/pq7ekqto3wo06g5/Herico_Lima_Curriculum.pdf/file"
             target="_blank"
           >
             <img className="icon" src={Download} />
