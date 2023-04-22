@@ -74,6 +74,10 @@
     "projectApiTaskDescription3": "API that manages tasks, saving them in a MYSQL database hosted on planetscale.com, boils down to a basic CRUD in NodeJs and is hosted on Vercel.",
     "projectApiTaskDescriptionCreateProject": "After studying Javascrypt and Node, I decided to create this project to fix what was learned and, overcome the difficulties and obstacles that create a back-end application in Node presents to a beginner in programming.",
 
+    "projectCMLIFEdescription1": "Website that presents the services of a medical clinic",
+    "projectCMLIFEdescription2": "Our clinic is ready to receive our patients through an excellent structure, comfort and the security you need.",
+    "projectCMLIFEDescriptionCreateProject": "Wuebsite created as a didactic work, to finish learning html and css on the DevMedia course platform. Demonstrating the services of a fictional medical clinic. Responsive design.",
+
     "footerDescription1": "Everything here is in development. Tips, suggestions or opinions are welcome. Contact me through social networks. Hugs!!"
   }
 }

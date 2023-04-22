@@ -74,6 +74,10 @@
     "projectApiTaskDescription3": "API que gerencia tarefas, salvando-as em um banco de dados MYSQL hospedado na planetscale.com, se resume em um CRUD básico em NodeJs e esta hospedada na Vercel.",
     "projectApiTaskDescriptionCreateProject": "Pensa em um projeto divertido para quem está começando na programação back-end. Após estudar Javascrypt e Node, decidi criar este projeto para fixar o que foi aprendido e, desbravar as dificuldades e obstáculos que criar uma aplicação back-end em Node apresenta para um iniciante na programação.",
 
+    "projectCMLIFEdescription1": "Site que apresenta os serviços de uma clinica médica",
+    "projectCMLIFEdescription2": "Nossa clínica está pronta para receber nossos pacientes através de uma excelente estrutura, comodidade e com a segurança de que vocês precisam.",
+    "projectCMLIFEDescriptionCreateProject": "Wuebsite criado como um trabalho didático, para finalizar o aprendizado de html e css na plataforma de cursos DevMedia. Demonstrando os serviços de uma clínica médica fictícia. Projeto responsivo.",
+
     "footerDescription1": "Tudo aqui está em desenvolvimento. Dicas, sugestões ou opiniões serão bem-vindas. Contate-me pelas redes sociais. Abraços!!"
   }
 }
