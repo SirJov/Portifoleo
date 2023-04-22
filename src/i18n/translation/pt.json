@@ -56,7 +56,7 @@
     "CarpintariaAboutSection3": "Estruturas para telhados e forros, entre outros serviços em madeira, também estão entre minhas experiências de trabalho.",
     "EstoquistaAboutSection3": "Função que exerço atualmente em São Bernardino-SC, verificando e organizando o estoque de uma loja de produtos elétricos e materiais de construção. Também trabalhei no centro de Curitiba em uma loja de CFTV como auxiliar de estoque até ser promovido a vendedor.",
 
-    "obsMsg":"Todas as imagens mostradas nos cards são de trabalhos realizados e locais por onde passei.",
+    "obsMsg": "Todas as imagens mostradas nos cards são de trabalhos realizados e locais por onde passei.",
 
     "ProjectsMainP1": "Guia de ícones do projeto",
     "iconPerson": "Pessoal - projeto de minha autoria",
@@ -72,6 +72,8 @@
     "titleProjectApiTask": "API Tarefas",
     "projectApiTaskDescription1": "API CRUD para gerenciamento de tarefas, to-do-list.",
     "projectApiTaskDescription3": "API que gerencia tarefas, salvando-as em um banco de dados MYSQL hospedado na planetscale.com, se resume em um CRUD básico em NodeJs e esta hospedada na Vercel.",
-    "projectApiTaskDescriptionCreateProject": "Pensa em um projeto divertido para quem está começando na programação back-end. Após estudar Javascrypt e Node, decidi criar este projeto para fixar o que foi aprendido e, desbravar as dificuldades e obstáculos que criar uma aplicação back-end em Node apresenta para um iniciante na programação."
+    "projectApiTaskDescriptionCreateProject": "Pensa em um projeto divertido para quem está começando na programação back-end. Após estudar Javascrypt e Node, decidi criar este projeto para fixar o que foi aprendido e, desbravar as dificuldades e obstáculos que criar uma aplicação back-end em Node apresenta para um iniciante na programação.",
+
+    "footerDescription1": "Tudo aqui está em desenvolvimento. Dicas, sugestões ou opiniões serão bem-vindas. Contate-me pelas redes sociais. Abraços!!"
   }
 }

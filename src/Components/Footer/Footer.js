@@ -1,11 +1,13 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 import "./Footer.css";
 
 export function Footer() {
+  const [t] = useTranslation();
   return (
     <footer>
-      <p>Este é o final disso tudo</p>
+      <p>{t("footerDescription1")}</p>
     </footer>
   );
 }
