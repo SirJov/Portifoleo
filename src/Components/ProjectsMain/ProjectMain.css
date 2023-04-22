@@ -10,7 +10,8 @@
 .divProject2 {
   padding: 10px;
   border-radius: 4px;
-  min-height: 85vh;
+  height: 97vh;
+ 
 }
 .divProjectCards {
   display: flex;
