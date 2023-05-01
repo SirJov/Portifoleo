@@ -13,7 +13,7 @@ export function AboutSection2() {
       <div className="About2SubBox1">
         <div>
           <p>{t("P1AboutSection2")}</p>
-          <p>{t("P2AboutSection2")}</p>
+
           <p>{t("P3AboutSection2")}</p>
           <p>{t("P4AboutSection2")}</p>
           <p>{t("P0AboutSection2")}</p>
