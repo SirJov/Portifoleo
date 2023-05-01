@@ -30,7 +30,6 @@ export function AboutSection2() {
         <div>
           <p>{t("P10AboutSection2")}</p>
           <ul>
-            <li>{t("L1AboutSection2")}</li>
             <li>{t("L2AboutSection2")}</li>
             <li>{t("L3AboutSection2")}</li>
           </ul>
