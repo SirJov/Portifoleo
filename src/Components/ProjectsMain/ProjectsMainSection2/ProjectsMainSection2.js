@@ -44,32 +44,6 @@ export function ProjectsMainSection2() {
                 </p>
               </div>
             </div>
-            <div className="ProjectsMainSection2Box5">
-              <img
-                className="iconProjectCards"
-                src={iten.iconFront}
-                title=""
-                alt=""
-              />
-              <img
-                className="iconProjectCards"
-                title=""
-                src={iten.iconBack}
-                alt=""
-              />
-              <img
-                className="iconProjectCards"
-                title=""
-                src={iten.iconProprio}
-                alt=""
-              />
-              <img
-                className="iconProjectCards"
-                title=""
-                src={iten.iconDidatic}
-                alt=""
-              />
-            </div>
           </div>
         </div>
       </div>

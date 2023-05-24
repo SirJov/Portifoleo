@@ -43,10 +43,6 @@ const CardsProjects = [
     img1: imgAPItask,
     gif: gifProjectApiTask,
     title: "titleProjectApiTask",
-    iconFront: "",
-    iconBack: iconBack,
-    iconProprio: iconProprio,
-    iconDidatic: "",
 
     projectDescription: "projectApiTaskDescription1",
     projectDescription2: "Node, Javascrypt...",

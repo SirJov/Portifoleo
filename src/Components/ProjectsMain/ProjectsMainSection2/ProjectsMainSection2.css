@@ -82,18 +82,6 @@
   margin-bottom: 3px;
 }
 
-.ProjectsMainSection2Box5 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 5px;
-  align-items: center;
-  width: 10%;
-}
-.iconProjectCards {
-  width: 20px;
-}
-
 .ProjectsMainSection2Box2:hover .BtnProjectsCardClick {
   animation: EfectDiv2 2s infinite;
 }
@@ -117,9 +105,6 @@
   }
 }
 @media (max-width: 400px) {
-  .ProjectsMainSection2Box5 {
-    display: none;
-  }
 }
 @media (max-width: 300px) {
   .ProjectsMainSection2Box2 {
@@ -134,9 +119,6 @@
   }
   .ProjectsMainSection2Box3 {
     border-right: none;
-  }
-  .ProjectsMainSection2Box5 {
-    display: none;
   }
 }
 @keyframes EfectDiv {
