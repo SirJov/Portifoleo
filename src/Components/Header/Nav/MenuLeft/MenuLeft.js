@@ -1,64 +1,44 @@
-import React, { useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import ContextPagSelected from "../../../../Context/ContextPageSelected";
 
 import "./MenuLeft.css";
 
 export function MenuLeft() {
+  const [PagSelected, SetPagSelected] = useContext(ContextPagSelected);
+
   const [t, i18n] = useTranslation();
-  const [url, setUrl] = useState();
+  const [clas, setclas] = useState(["Selected1", "NotSelected", "NotSelected"]);
 
-  const url_atual = window.location.pathname;
-  const valueClass = ChangeId(url_atual);
+  useEffect(() => {
+    if (PagSelected === "About") {
+      return setclas(["Selected1", "NotSelected", "NotSelected"]);
+    }
+    if (PagSelected === "Projects") {
+      return setclas(["NotSelected", "Selected2", "NotSelected"]);
+    }
+    if (PagSelected === "InCreation") {
+      return setclas(["NotSelected", "NotSelected", "Selected3"]);
+    }
+  }, [PagSelected]);
 
-  function btnSelected(i) {
-    setUrl(i);
-  }
-
-  function ChangeId(url) {
-    if (url === "/") {
-      const newClass = ["Selected1", "NotSelected", "NotSelected"];
-      return newClass;
-    }
-    if (url === "/Projects") {
-      const newClass = ["NotSelected", "Selected2", "NotSelected"];
-      return newClass;
-    }
-    if (url === "/InCreation") {
-      const newClass = ["NotSelected", "NotSelected", "Selected3"];
-      return newClass;
-    }
-  }
   return (
     <div className="MenuLeft">
       <ul>
         <li>
-          <Link
-            id={valueClass[0]}
-            className="btn"
-            to="/"
-            onClick={() => btnSelected("/")}
-          >
+          <Link id={clas[0]} className="btn" to="/">
             <p>{t("btnAbaut")}</p>
           </Link>
         </li>
         <li>
-          <Link
-            id={valueClass[1]}
-            className="btn"
-            to="/Projects"
-            onClick={() => btnSelected("/Projects")}
-          >
+          <Link id={clas[1]} className="btn" to="/Projects">
             <p>{t("btnProjects")}</p>
           </Link>
         </li>
+
         <li>
-          <Link
-            id={valueClass[2]}
-            className="btn"
-            to="/InCreation"
-            onClick={() => btnSelected("/InCreation")}
-          >
+          <Link id={clas[2]} className="btn" to="/InCreation">
             <p>{t("btnInCreation")}</p>
           </Link>
         </li>
