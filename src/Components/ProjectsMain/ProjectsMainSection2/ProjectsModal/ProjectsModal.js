@@ -1,8 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import { BtnLinkGitHub } from "./btnLinkGitHub/btnLinkGitHub";
-import { BtnLinkVercel } from "./btnLinkVercel/btnLinkVercel";
+import { BtnLinks } from "./BtnLinks/BtnLinks";
 
 import "./ProjectsModal.css";
 
@@ -40,10 +39,23 @@ export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
                   <p>{objModal.usedInProject}</p>
                 </div>
               </div>
- 
+
               <div className="modalBox4">
-                <BtnLinkGitHub objModal={objModal} />
-                <BtnLinkVercel objModal={objModal} />
+                <BtnLinks
+                  info={objModal.FronfEnd_btnGit}
+                  link={objModal.linkFrontEndGithub}
+                  text={"Git Front"}
+                />
+                <BtnLinks
+                  info={objModal.BackEnd_btnGit}
+                  link={objModal.linkBackEndGithub}
+                  text={"Git Back"}
+                />
+                <BtnLinks
+                  info={objModal.btnVercel}
+                  link={objModal.linkVercel}
+                  text={"Site"}
+                />
               </div>
             </div>
           </div>

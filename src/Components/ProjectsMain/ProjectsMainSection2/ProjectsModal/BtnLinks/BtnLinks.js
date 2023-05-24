@@ -1,16 +1,16 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import "./btnLinkVercel.css";
+import "./BtnLinks.css";
 
-export function BtnLinkVercel({ objModal }) {
+export function BtnLinks({ info, link, text }) {
   const [t] = useTranslation();
 
-  if (objModal.btnVercel) {
+  if (info) {
     return (
       <div>
-        <a href={objModal.linkVercel} target="_blank">
-          Site
+        <a href={link} target="_blank">
+          {text}
         </a>
       </div>
     );

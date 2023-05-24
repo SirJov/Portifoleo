@@ -6,11 +6,6 @@ import gifProjectFrontTasks from "../../../assets/AssetsProjects/projects/projec
 import gifProjectApiTask from "../../../assets/AssetsProjects/projects/project2/Api Task.png";
 import GifCMlife from "../../../assets/AssetsProjects/projects/projeto3/CMlifeGif.gif";
 
-import iconFront from "../../../assets/AssetsProjects/iconFront.webp";
-import iconBack from "../../../assets/AssetsProjects/iconBack.webp";
-import iconProprio from "../../../assets/AssetsProjects/iconProprio.webp";
-import iconDidatic from "../../../assets/AssetsProjects/iconDidatic.webp";
-
 const CardsProjects = [
   {
     //Front-End  CM s2 Life
@@ -18,10 +13,6 @@ const CardsProjects = [
     img1: imgCMlife,
     gif: GifCMlife,
     title: "CM Life",
-    iconFront: iconFront,
-    iconBack: "",
-    iconProprio: "",
-    iconDidatic: iconDidatic,
 
     projectDescription: "projectCMLIFEdescription1",
     projectDescription2: "Html, Css",
@@ -30,32 +21,14 @@ const CardsProjects = [
     projectDescriptionCreateProject: "projectCMLIFEDescriptionCreateProject",
     usedInProject: "Html, Css",
 
-    btnGit: true,
+    FronfEnd_btnGit: true,
+    BackEnd_btnGit: false,
     btnVercel: true,
 
-    linkGithub: "https://gitlab.com/Herico_Campos/second-front-end-project",
+    linkFrontEndGithub:
+      "https://gitlab.com/Herico_Campos/second-front-end-project",
+    linkBackEndGithub: null,
     linkVercel: "https://second-front-end-project.vercel.app/",
-  },
-
-  {
-    //Back-end  API tarefas
-
-    img1: imgAPItask,
-    gif: gifProjectApiTask,
-    title: "titleProjectApiTask",
-
-    projectDescription: "projectApiTaskDescription1",
-    projectDescription2: "Node, Javascrypt...",
-    projectDescription3: "projectApiTaskDescription3",
-
-    projectDescriptionCreateProject: "projectApiTaskDescriptionCreateProject",
-    usedInProject: "Node, Javascrypt, Express, Mysql.",
-
-    btnGit: true,
-    btnVercel: false,
-
-    linkGithub: "https://github.com/SirJov/API-TASKS-1",
-    linkVercel: "",
   },
 
   {
@@ -65,11 +38,6 @@ const CardsProjects = [
     gif: gifProjectFrontTasks, //gif 80x600 do projeto ou img com a mesma resoluçao
     title: "titleProjectFrontTarefas", //nome do projeto
 
-    iconFront: iconFront,
-    iconBack: "",
-    iconProprio: iconProprio,
-    iconDidatic: "",
-
     projectDescription: "projectFrontTarefasDescription1", //pequeno resumo da funcionalidade do projeto
     projectDescription2: "React, Javascrypt...", //previa das tecnologias usadas
     projectDescription3: "projectFrontTarefasDescription3", //texto completo das funcionalidades
@@ -78,11 +46,13 @@ const CardsProjects = [
       "projectFrontTarefasDescriptionCreateProject", //texto completo sobre como foi criado o projeto
     usedInProject: "React, Javascrypt, HTML, CSS.", //todas as tecnologias usadas
 
-    btnGit: true, //verdadeiro para ter botao git
-    btnVercel: true, //verdadeiro para ter botao Vercel
+    FronfEnd_btnGit: true,
+    BackEnd_btnGit: true,
+    btnVercel: true,
 
-    linkGithub: "https://github.com/SirJov/FRONT-TASKS-1-New", //link Git se tiver
-    linkVercel: "https://front-tasks-1-new.vercel.app/", //link vercel se tiver
+    linkFrontEndGithub: "https://github.com/SirJov/FRONT-TASKS-1-New",
+    linkBackEndGithub: "https://github.com/SirJov/API-TASKS-1",
+    linkVercel: "https://front-tasks-1-new.vercel.app/",
   },
 ];
 
