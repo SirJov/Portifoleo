@@ -1,5 +1,5 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
+
 
 import "./ProjectsMainSection1.css";
 
@@ -7,7 +7,7 @@ import Borda2L from "../../../assets/AssetsProjects/Borda2L.webp";
 import Borda2R from "../../../assets/AssetsProjects/Borda2R.webp";
 
 export function ProjectsMainSection1() {
-  const [t] = useTranslation();
+ 
 
   return (
     <div className="ProjectsMainSection1">

@@ -1,13 +1,10 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
 
 import { BtnLinks } from "./BtnLinks/BtnLinks";
 
 import "./ProjectsModal.css";
 
 export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
-  const [t] = useTranslation();
-
   if (isOpen)
     return (
       <>
@@ -19,7 +16,7 @@ export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
           <div className="ModalContainer">
             <div className="modalDivHeader">
               <div>
-                <p>{t(objModal.title)}</p>
+                <p>{objModal.title}</p>
               </div>
               <div>
                 <button onClick={() => setOpenModal(false)}>X</button>
@@ -28,14 +25,14 @@ export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
             <div className="modalDivBody">
               <div className="modalBox1">
                 <img className="bloco" src={objModal.gif} alt=""></img>
-                <p className="descri">{t(objModal.projectDescription3)}</p>
+                <p className="descri">{objModal.projectDescription3}</p>
               </div>
               <div className="modalBox2">
                 <div>
-                  <p>{t(objModal.projectDescriptionCreateProject)}</p>
+                  <p>{objModal.projectDescriptionCreateProject}</p>
                 </div>
                 <div>
-                  <h6>{t("wasUsed")}</h6>
+                  <h6>Neste projeto foi utilizado :</h6>
                   <p>{objModal.usedInProject}</p>
                 </div>
               </div>

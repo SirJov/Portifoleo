@@ -1,14 +1,10 @@
 import React, { useState } from "react";
-import { useTranslation } from "react-i18next";
 import { ProjectsModal } from "./ProjectsModal/ProjectsModal";
-
 import { CardsProjects } from "./ArrayProjects";
 
 import "./ProjectsMainSection2.css";
 
 export function ProjectsMainSection2() {
-  const [t] = useTranslation();
-
   const [openModal, setOpenModal] = useState(false);
   const [objModal, setobjModal] = useState("");
 
@@ -28,17 +24,19 @@ export function ProjectsMainSection2() {
           <div className="ProjectsMainSection2Box2-2">
             <div className="ProjectsMainSection2Box3">
               <img src={iten.img1} alt="" />
-              <p>{t(iten.title)}</p>
+              <p>{iten.title}</p>
             </div>
             <div className="ProjectsMainSection2Box4">
               <p className="CardsProjectsDescription1">
-                {t(iten.projectDescription)}
+                {iten.projectDescription}
               </p>
               <div>
                 <p className="BtnProjectsCardClick">Click</p>
               </div>
               <div className="CardsProjectsDescryption">
-                <p className="CardsProjectsUsedTecDesInfo">{t("wasUsed")}</p>
+                <p className="CardsProjectsUsedTecDesInfo">
+                  Neste projeto foi utilizado :
+                </p>
                 <p className="CardsProjectsUsedTecDescryption">
                   {iten.projectDescription2}
                 </p>

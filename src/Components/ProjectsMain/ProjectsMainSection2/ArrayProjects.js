@@ -1,9 +1,7 @@
 import imgNewFrontTasks1 from "../../../assets/AssetsProjects/projects/project1/imgNewFrontTasks1.webp";
-import imgAPItask from "../../../assets/AssetsProjects/projects/project2/imgProjectAPI.png";
 import imgCMlife from "../../../assets/AssetsProjects/projects/projeto3/imgCMlife.png";
 
 import gifProjectFrontTasks from "../../../assets/AssetsProjects/projects/project1/gifproject1.gif";
-import gifProjectApiTask from "../../../assets/AssetsProjects/projects/project2/Api Task.png";
 import GifCMlife from "../../../assets/AssetsProjects/projects/projeto3/CMlifeGif.gif";
 
 const CardsProjects = [
@@ -14,11 +12,13 @@ const CardsProjects = [
     gif: GifCMlife,
     title: "CM Life",
 
-    projectDescription: "projectCMLIFEdescription1",
+    projectDescription: "Site que apresenta os serviços de uma clinica médica",
     projectDescription2: "Html, Css",
-    projectDescription3: "projectCMLIFEdescription2",
+    projectDescription3:
+      "Nossa clínica está pronta para receber nossos pacientes através de uma excelente estrutura, comodidade e com a segurança de que vocês precisam.",
 
-    projectDescriptionCreateProject: "projectCMLIFEDescriptionCreateProject",
+    projectDescriptionCreateProject:
+      "Wuebsite criado como um trabalho didático, para finalizar o aprendizado de html e css na plataforma de cursos DevMedia. Demonstrando os serviços de uma clínica médica fictícia. Projeto responsivo.",
     usedInProject: "Html, Css",
 
     FronfEnd_btnGit: true,
@@ -36,14 +36,15 @@ const CardsProjects = [
 
     img1: imgNewFrontTasks1, //icone redondo do projeto
     gif: gifProjectFrontTasks, //gif 80x600 do projeto ou img com a mesma resoluçao
-    title: "titleProjectFrontTarefas", //nome do projeto
+    title: "App tarefas", //nome do projeto
 
-    projectDescription: "projectFrontTarefasDescription1", //pequeno resumo da funcionalidade do projeto
+    projectDescription: "App onde voce pode criar, alterar e deletar tarefas", //pequeno resumo da funcionalidade do projeto
     projectDescription2: "React, Javascrypt...", //previa das tecnologias usadas
-    projectDescription3: "projectFrontTarefasDescription3", //texto completo das funcionalidades
+    projectDescription3:
+      "Nesse app você poderá criar tarefas para se organizar em seu dia a dia, podendo completá-las, refazê-las e deletá-las quando quiser. Com design simples e responsivo, podendo ser usado tanto em mobile quanto desktop.", //texto completo das funcionalidades
 
     projectDescriptionCreateProject:
-      "projectFrontTarefasDescriptionCreateProject", //texto completo sobre como foi criado o projeto
+      "Meu primeiro projeto em React, projeto front que consome uma API de tarefas, projeto com suporte responsivo para desktop e mobile. Requisições feitas em axios. Ele está sendo refatorado à medida que avanço meu conhecimento em React.", //texto completo sobre como foi criado o projeto
     usedInProject: "React, Javascrypt, HTML, CSS.", //todas as tecnologias usadas
 
     FronfEnd_btnGit: true,

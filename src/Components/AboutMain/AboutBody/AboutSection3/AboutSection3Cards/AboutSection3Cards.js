@@ -1,5 +1,5 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
+
 
 import "./AboutSection3Cards.css";
 
@@ -11,19 +11,39 @@ import Carpintaria from "../../../../../assets/Carpintaria.webp";
 import Estoquista from "../../../../../assets/Estoquista.webp";
 
 export function AboutSection3Cards() {
-  const [t, i18n] = useTranslation();
+
 
   const ArrayExperiencia = [
-    { img: Gesseiro, h5: t("Gesseiro"), msg: t("GesseiroAboutSection3") },
-    { img: Motoboy, h5: t("Motoboy"), msg: t("MotoboyAboutSection3") },
-    { img: Pecuarista, h5: t("Pecuarista"), msg: t("PecuaristaAboutSection3") },
-    { img: Pedreiro, h5: t("Pedreiro"), msg: t("PedreiroAboutSection3") },
+    {
+      img: Gesseiro,
+      h5: "Gesseiro",
+      msg: "Profissão que mais exerci na minha vida, trabalhei por 6 anos como gesseiro. Das profissões da construção civil em que trabalhei, essa sem dúvidas é a que mais gostei e me adaptei. Apesar de não exercer mais essa função, ainda hoje recebo ligações de empreiteiros querendo meus serviços.",
+    },
+    {
+      img: Motoboy,
+      h5: "Motoboy",
+      msg: "Além de ser meu principal meio de transporte, minha moto também já foi minha principal ferramenta de trabalho. Trabalhando com moto frete, já atravessei Curitiba e demais regiões metropolitanas.",
+    },
+    {
+      img: Pecuarista,
+      h5: "Pecuarista",
+      msg: "Trabalhei por pouco mais de um ano em uma fazenda leiteira, realizando serviços gerais como operador de ordenha, manutenção, instalações, entre outros. Uma das principais funções era a pecuária, lidando com vacas leiteiras, ovelhas, porcos e outros animais. Um trabalho que me aproximou da natureza e me ensinou muitas lições que levarei para o resto da vida.",
+    },
+    {
+      img: Pedreiro,
+      h5: "Pedreiro",
+      msg: "Experiência em pequenas construções e manutenções em alvenaria, por trabalhar muitos anos com meu pai, que era mestre de obras de uma grande construtora brasileira, pude aprender muito sobre a profissão de pedreiro.",
+    },
     {
       img: Carpintaria,
-      h5: t("Carpinteiro"),
-      msg: t("CarpintariaAboutSection3"),
+      h5: "Carpinteiro",
+      msg: "Estruturas para telhados e forros, entre outros serviços em madeira, também estão entre minhas experiências de trabalho.",
     },
-    { img: Estoquista, h5: t("Estoquista"), msg: t("EstoquistaAboutSection3") },
+    {
+      img: Estoquista,
+      h5: "Estoquista",
+      msg: "Função que exerço atualmente em São Bernardino-SC, verificando e organizando o estoque de uma loja de produtos elétricos e materiais de construção. Também trabalhei no centro de Curitiba em uma loja de CFTV como auxiliar de estoque até ser promovido a vendedor.",
+    },
   ];
 
   return ArrayExperiencia.map((iten, index) => {

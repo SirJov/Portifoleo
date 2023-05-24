@@ -1,5 +1,4 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
 
 import "./AboutSection2.css";
 
@@ -7,36 +6,54 @@ import FrontBack from "../../../../assets/FrontBack.webp";
 import imgAbout3 from "../../../../assets/imgAbout3.webp";
 
 export function AboutSection2() {
-  const [t, i18n] = useTranslation();
+
   return (
     <div id="About2Box">
       <div className="About2SubBox1">
         <div>
-          <p>{t("P1AboutSection2")}</p>
+          <p>Idade : 29 anos</p>
 
-          <p>{t("P3AboutSection2")}</p>
-          <p>{t("P4AboutSection2")}</p>
-          <p>{t("P0AboutSection2")}</p>
+          <p>CNH : A, B</p>
+          <p>Masculino</p>
+          <p>Escolaridade : Ensino médio completo.</p>
         </div>
         <div>
-          <p>{t("P5AboutSection2")}</p>
-          <p>{t("P6AboutSection2")}</p>
-          <p>{t("P7AboutSection2")}</p>
-          <p>{t("P8AboutSection2")}</p>
+          <p>Nacionalidade : Brasileiro</p>
+          <p>Ingles : baixo</p>
+          <p>Cidade natal : Curitiba</p>
+          <p>Morando atualmente em Sao Bernardino - SC</p>
         </div>
       </div>
       <div className="interBox">
         <img src={imgAbout3} />
         <div>
-          <p>{t("P10AboutSection2")}</p>
+          <p>
+            Procuro entregar meu trabalho de forma simples, porém eficiente e
+            intuitiva na programação e em todas as áreas em que atuo.
+          </p>
           <ul>
-            <li>{t("L2AboutSection2")}</li>
-            <li>{t("L3AboutSection2")}</li>
+            <li>
+              Eficiente de forma a entregar todas as funcionalidades desejadas
+              de forma adequada.
+            </li>
+            <li>
+              Intuitivo para que pessoas de qualquer idade possam entender como
+              o aplicativo funciona.
+            </li>
           </ul>
         </div>
       </div>
       <div className="About2SubBox2">
-        <p>{t("P9AboutSection2")}</p>
+        <p>
+          Há aproximadamente um ano, estou focando meu tempo livre após o
+          trabalho, em estudos sobre programação. Com foco principal no
+          Front-end, estou tendo contato diário com html, css e Javascript em
+          cursos online e projetos pessoais onde eu pratico os conceitos
+          aprendidos. Apesar do foco em Front-end, a curiosidade e os conselhos
+          de amigos já programadores, me levaram a estudar também o Back-end
+          aproveitando ao máximo a versatilidade do Javascript, me fazendo
+          almejar no futuro ser um profissional Full-stack.
+        </p>
       </div>
       <img src={FrontBack} />
     </div>

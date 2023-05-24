@@ -1,5 +1,4 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
 
 import "./AboutSection3Courses.css";
 
@@ -10,8 +9,6 @@ import PYTHON from "../../../../../assets/Python.webp";
 import REACT from "../../../../../assets/React.webp";
 
 export function AboutSection3Courses() {
-  const [t, i18n] = useTranslation();
-
   const ArrayCourses = [
     {
       img: JAVASCRYPT,

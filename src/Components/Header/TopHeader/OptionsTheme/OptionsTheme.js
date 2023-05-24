@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useTranslation } from "react-i18next";
 
 import ConfigTheme from "./configTheme/ConfigTheme.js";
 
@@ -9,7 +8,7 @@ import iconLigth from "../../../../assets/iconLight.webp";
 import "./OptionsTheme.css";
 
 export function OptionsTheme() {
-  const [t, i18n] = useTranslation();
+
   const [Theme, setTheme] = useState("dark");
   const idTheme = SetThemeId(Theme);
 
@@ -31,7 +30,7 @@ export function OptionsTheme() {
       <ConfigTheme Theme={Theme} />
       <div className="OptTheme">
         <div>
-          <p>{t("pTheme")}</p>
+          <p>Tema</p>
         </div>
         <div>
           <a>

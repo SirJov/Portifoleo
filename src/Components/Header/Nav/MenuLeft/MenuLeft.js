@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import ContextPagSelected from "../../../../Context/ContextPageSelected";
 
@@ -8,7 +7,7 @@ import "./MenuLeft.css";
 export function MenuLeft() {
   const [PagSelected, SetPagSelected] = useContext(ContextPagSelected);
 
-  const [t, i18n] = useTranslation();
+
   const [clas, setclas] = useState(["Selected1", "NotSelected", "NotSelected"]);
 
   useEffect(() => {
@@ -28,18 +27,18 @@ export function MenuLeft() {
       <ul>
         <li>
           <Link id={clas[0]} className="btn" to="/">
-            <p>{t("btnAbaut")}</p>
+            <p>Sobre</p>
           </Link>
         </li>
         <li>
           <Link id={clas[1]} className="btn" to="/Projects">
-            <p>{t("btnProjects")}</p>
+            <p>Projetos</p>
           </Link>
         </li>
 
         <li>
           <Link id={clas[2]} className="btn" to="/InCreation">
-            <p>{t("btnInCreation")}</p>
+            <p>Em criaçao</p>
           </Link>
         </li>
       </ul>

@@ -1,24 +1,24 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
+
 
 import "./AsideAbaut.css";
 
 export function AsideAbout() {
-  const [t] = useTranslation();
+
 
   return (
     <aside className="Aside">
       <div className="DivSticky">
-        <p>{t("IndexAboutAside")}</p>
+        <p>Índice</p>
         <ul>
           <li>
-            <a href="#logo">{t("L1AboutAside")}</a>
+            <a href="#logo">Apresentação</a>
           </li>
           <li>
-            <a href="#About2Box">{t("L2AboutAside")}</a>
+            <a href="#About2Box">Perfil</a>
           </li>
           <li>
-            <a href="#Box1AboutSection3">{t("L3AboutAside")}</a>
+            <a href="#Box1AboutSection3">Experiência</a>
           </li>
           <li>
             <a href=""></a>
