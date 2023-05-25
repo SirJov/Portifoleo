@@ -1,20 +1,14 @@
 .divProject {
   border-radius: 5px 5px 5px 5px;
-  background-image: linear-gradient(
-    0deg,
-    rgba(210, 254, 231, 0.858),
-    rgba(255, 255, 0, 0.342)
-  );
-  padding: 5px;
+  border: 5px solid rgba(255, 251, 0, 0.589);
 }
 .divProject2 {
   padding: 10px;
-  border-radius: 4px;
   height: 97vh;
- 
 }
 .divProjectCards {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }

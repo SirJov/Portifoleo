@@ -1,15 +1,9 @@
 .divInCreation {
   border-radius: 5px 5px 5px 5px;
-  background-image: linear-gradient(
-    0deg,
-    rgba(200, 217, 254, 0.799),
-    rgba(100, 255, 108, 0.377)
-  );
-  padding: 5px;
+  border: 5px solid rgba(0, 195, 255, 0.541);
 }
 .divInCreation2 {
   display: flex;
   padding: 10px;
-  border-radius: 4px;
   height: 97vh;
 }

@@ -20,17 +20,13 @@
   #borda2Project {
     width: 30%;
   }
-  .ProjectsMainSection1 h2 {
-    font-size: 18px;
-  }
+ 
 }
 @media (max-width: 400px) {
   .ProjectsMainSection1 {
     border-bottom: none;
   }
-  .ProjectsMainSection1 h2 {
-    display: none;
-  }
+  
   #borda1Project {
     width: 40%;
   }
