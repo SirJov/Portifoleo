@@ -7,7 +7,6 @@ import "./MenuLeft.css";
 export function MenuLeft() {
   const [PagSelected, SetPagSelected] = useContext(ContextPagSelected);
 
-
   const [clas, setclas] = useState(["Selected1", "NotSelected", "NotSelected"]);
 
   useEffect(() => {
@@ -35,13 +34,14 @@ export function MenuLeft() {
             <p>Projetos</p>
           </Link>
         </li>
-
-        <li>
-          <Link id={clas[2]} className="btn" to="/InCreation">
-            <p>Em criaçao</p>
-          </Link>
-        </li>
       </ul>
     </div>
   );
 }
+/*
+<li>
+          <Link id={clas[2]} className="btn" to="/InCreation">
+            <p>Em criaçao</p>
+          </Link>
+        </li>
+*/
