@@ -19,7 +19,10 @@ const CardsProjects = [
 
     projectDescriptionCreateProject:
       "Wuebsite criado como um trabalho didático, para finalizar o aprendizado de html e css na plataforma de cursos DevMedia. Demonstrando os serviços de uma clínica médica fictícia. Projeto responsivo.",
-    usedInProject: "Html, Css",
+    projectDescriptionCreateProject2: "",
+
+    usedInProject_front: "Front-end feito com: Html, Css",
+    usedInProject_back: "",
 
     FronfEnd_btnGit: true,
     BackEnd_btnGit: false,
@@ -35,17 +38,21 @@ const CardsProjects = [
     //Front Tasks 1 New
 
     img1: imgNewFrontTasks1, //icone redondo do projeto
-    gif: gifProjectFrontTasks, //gif 80x600 do projeto ou img com a mesma resoluçao
+    gif: gifProjectFrontTasks, //gif 800x600 do projeto ou img com a mesma resoluçao
     title: "App tarefas", //nome do projeto
 
     projectDescription: "App onde voce pode criar, alterar e deletar tarefas", //pequeno resumo da funcionalidade do projeto
-    projectDescription2: "React, Javascrypt...", //previa das tecnologias usadas
+    projectDescription2: "React, Mysql...", //previa das tecnologias usadas
     projectDescription3:
       "Nesse app você poderá criar tarefas para se organizar em seu dia a dia, podendo completá-las, refazê-las e deletá-las quando quiser. Com design simples e responsivo, podendo ser usado tanto em mobile quanto desktop.", //texto completo das funcionalidades
 
     projectDescriptionCreateProject:
       "Meu primeiro projeto em React, projeto front que consome uma API de tarefas, projeto com suporte responsivo para desktop e mobile. Requisições feitas em axios. Ele está sendo refatorado à medida que avanço meu conhecimento em React.", //texto completo sobre como foi criado o projeto
-    usedInProject: "React, Javascrypt, HTML, CSS.", //todas as tecnologias usadas
+    projectDescriptionCreateProject2:
+      "Essa também foi a minha primeira API-REST criada e hospedada na Vercel, é um CRUD básico com conexão ao banco de dados MYsql hospedado na Planetscale.com.",
+
+    usedInProject_front: "Front-end feito com: React, HTML, CSS.", //todas as tecnologias usadas
+    usedInProject_back: "Back-end feito com: Node, Express, Mysql.",
 
     FronfEnd_btnGit: true,
     BackEnd_btnGit: true,

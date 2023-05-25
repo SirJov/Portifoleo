@@ -5,6 +5,17 @@ import { BtnLinks } from "./BtnLinks/BtnLinks";
 import "./ProjectsModal.css";
 
 export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
+  function InfoBack() {
+    if (objModal.projectDescriptionCreateProject2) {
+      console.log(typeof objModal.projectDescriptionCreateProject2);
+      return (
+        <div>
+          <p>{objModal.projectDescriptionCreateProject2}</p>
+          <p>{objModal.usedInProject_back}</p>
+        </div>
+      );
+    }
+  }
   if (isOpen)
     return (
       <>
@@ -30,13 +41,11 @@ export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
               <div className="modalBox2">
                 <div>
                   <p>{objModal.projectDescriptionCreateProject}</p>
+                  <p>{objModal.usedInProject_front}</p>
                 </div>
-                <div>
-                  <h6>Neste projeto foi utilizado :</h6>
-                  <p>{objModal.usedInProject}</p>
-                </div>
+                {InfoBack()}
               </div>
-
+ 
               <div className="modalBox4">
                 <BtnLinks
                   info={objModal.FronfEnd_btnGit}
