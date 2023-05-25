@@ -4,7 +4,41 @@ import imgCMlife from "../../../assets/AssetsProjects/projects/projeto3/imgCMlif
 import gifProjectFrontTasks from "../../../assets/AssetsProjects/projects/project1/gifproject1.gif";
 import GifCMlife from "../../../assets/AssetsProjects/projects/projeto3/CMlifeGif.gif";
 
+import litleFace from "../../../assets/AssetsProjects/projects/litlleFace/faveicon.ico";
+import LitlleFaceGif from "../../../assets/AssetsProjects/projects/litlleFace/LitlleFaceGif.gif";
+
 const CardsProjects = [
+  {
+    //Front Tasks 1 New
+
+    img1: litleFace, //icone redondo do projeto
+    gif: LitlleFaceGif, //gif 800x600 do projeto ou img com a mesma resoluçao
+    title: "Litlle Face", //nome do projeto
+
+    projectDescription: "Mini rede social com validaçao de Token", //pequeno resumo da funcionalidade do projeto
+    projectDescription2: "React, MongoDb...", //previa das tecnologias usadas
+    projectDescription3:
+      "Com Litlle face você pode criar uma conta, customizar seu perfil, criar uma publicação, dar likes e comentar publicações de outras pessoas como em uma rede social!!.", //texto completo das funcionalidades
+
+    projectDescriptionCreateProject:
+      "Projeto ciado para consolidar e praticar React e seus Hooks como o Context Api, useEfects entre outros", //texto completo sobre como foi criado o projeto
+    projectDescriptionCreateProject2:
+      "Api Rest, pratiquei bastante as funcionalidades do mongoose pois nao tinha mechido com banco de dados não-relacional orientado a documentos, e sistema de loguin com validação de tokens",
+
+    usedInProject_front:
+      "Front-end feito com: React, Router-dom, Axios, HTML, CSS.", //todas as tecnologias usadas
+    usedInProject_back:
+      "Back-end feito com: Node, Express, MongoDb, Mongoose, JSON Web Token, bCrypt.",
+
+    FronfEnd_btnGit: true,
+    BackEnd_btnGit: true,
+    btnVercel: true,
+
+    linkFrontEndGithub:
+      "https://github.com/SirJov/FRONT-Login-Token-Sistem-JWT",
+    linkBackEndGithub: "https://github.com/SirJov/API-Login-Token-Sistem-JWT",
+    linkVercel: "https://litlle-face.vercel.app/",
+  },
   {
     //Front-End  CM s2 Life
 

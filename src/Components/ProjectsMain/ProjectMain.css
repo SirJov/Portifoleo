@@ -8,7 +8,7 @@
 }
 .divProjectCards {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
