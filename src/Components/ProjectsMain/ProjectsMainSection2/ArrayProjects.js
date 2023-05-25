@@ -23,7 +23,7 @@ const CardsProjects = [
     projectDescriptionCreateProject:
       "Projeto ciado para consolidar e praticar React e seus Hooks como o Context Api, useEfects entre outros", //texto completo sobre como foi criado o projeto
     projectDescriptionCreateProject2:
-      "Api Rest, pratiquei bastante as funcionalidades do mongoose pois nao tinha mechido com banco de dados não-relacional orientado a documentos, e sistema de loguin com validação de tokens",
+      "Api Rest, pratiquei bastante as funcionalidades do mongoose pois nao tinha mexido com banco de dados não-relacional orientado a documentos, e sistema de loguin com validação de tokens",
 
     usedInProject_front:
       "Front-end feito com: React, Router-dom, Axios, HTML, CSS.", //todas as tecnologias usadas
