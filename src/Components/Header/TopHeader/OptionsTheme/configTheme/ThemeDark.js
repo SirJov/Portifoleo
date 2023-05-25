@@ -1,5 +1,5 @@
 const Dark = `
-.logo {background-image: linear-gradient(0deg, rgba(0, 25, 27, 0.92), rgb(0, 0, 0));}
+.logo {background-image: linear-gradient(0deg, rgba(1, 11, 12, 0.893), rgb(0, 0, 0));}
 .logo p {color: white;}
 
 .container{color:white;}

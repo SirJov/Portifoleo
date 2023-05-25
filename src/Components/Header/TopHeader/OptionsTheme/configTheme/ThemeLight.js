@@ -1,20 +1,20 @@
 const Light = `
-.logo {background-image: linear-gradient(0deg, rgba(195, 249, 255, 0.689), rgba(0, 221, 250, 0.705));}
+.logo {background-image: linear-gradient(0deg, rgba(66, 209, 219, 0.767), rgba(0, 152, 163, 0.925));}
 .logo p {color: black;}
 
 .container{color:black;}
 
-.divAbout2 {background-image: linear-gradient(0deg, rgba(133, 245, 253, 0.514), rgb(255, 255, 255),rgba(133, 245, 253, 0.514));}
-.divProject2  {background-image: linear-gradient(0deg, rgba(133, 245, 253, 0.514), rgb(255, 255, 255),rgba(133, 245, 253, 0.514));}
-.divInCreation2{background-image: linear-gradient(0deg, rgba(133, 245, 253, 0.514), rgb(255, 255, 255),rgba(133, 245, 253, 0.514));}
+.divAbout2 {background-image: linear-gradient(0deg,rgba(0, 152, 163, 0.767),rgb(208, 238, 255),rgba(0, 152, 163, 0.767));}
+.divProject2  {background-image: linear-gradient(0deg,rgba(0, 152, 163, 0.767),rgb(208, 238, 255),rgba(0, 152, 163, 0.767));}
+.divInCreation2{background-image: linear-gradient(0deg,rgba(0, 152, 163, 0.767),rgb(208, 238, 255),rgba(0, 152, 163, 0.767));}
 
 .About1Borda1 {filter: invert(10%);}
 .Aside li a {color: rgb(0, 31, 2);}
 #AboutSection3Card {background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.644), rgba(0, 247, 255, 0.342));}
 
-.ProjectsModalBox1 {background-image: linear-gradient(0deg, rgba(133, 245, 253, 0.514), rgb(255, 255, 255),rgba(133, 245, 253, 0.514));}
+.ProjectsModalBox1 {background-image: linear-gradient(0deg,rgba(0, 152, 163, 0.767),rgb(208, 238, 255),rgba(0, 152, 163, 0.767));}
 
-footer {background-image: linear-gradient(0deg,rgba(0, 221, 250, 0.705), rgba(195, 249, 255, 0.689) );}
+footer {background-image: linear-gradient(0deg,rgba(0, 152, 163, 0.925), rgba(66, 209, 219, 0.767) );}
 footer p {color:black;}
 `;
 
