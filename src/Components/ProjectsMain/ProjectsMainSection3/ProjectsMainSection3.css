@@ -1,4 +1,4 @@
-.ProjectsMainSection1 {
+.ProjectsMainSection3 {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -20,7 +20,7 @@
   }
 }
 @media (max-width: 400px) {
-  .ProjectsMainSection1 {
+  .ProjectsMainSection3 {
     border-bottom: none;
   }
 

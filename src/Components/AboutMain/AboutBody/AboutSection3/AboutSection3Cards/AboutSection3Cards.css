@@ -1,26 +1,30 @@
 #AboutSection3Card {
+  padding: 5px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   gap: 10px;
   margin: 15px 15px;
-  border-radius: 10px 10px 5px 5px;
+  border-radius: 10px;
   border: 3px outset #6c604b;
   width: 325px;
   height: fit-content;
 }
+
 #AboutSection3Card p {
   font-size: 11px;
   text-align: center;
 }
 
 #AboutSection3Card img {
-  width: 320px;
-  border-radius: 8px 8px 0px 0px;
+  max-width: 99%;
+  border-radius: 8px;
 }
 
 #AboutSection3Card h5 {
   text-align: center;
+  background-color: rgb(39, 138, 77);
+  border-radius: 8px;
 }
 #AboutSection3Card div:last-of-type {
   padding: 10px;
@@ -31,7 +35,7 @@
     width: 265px;
   }
   #AboutSection3Card img {
-    width: 260px;
+    width: 99%;
   }
 }
 @media (max-width: 320px) {
@@ -39,11 +43,11 @@
     width: 85vw;
   }
   #AboutSection3Card img {
-    width: 83vw;
+    width: 99%;
   }
 }
 @media (max-width: 270px) {
   #AboutSection3Card img {
-    width: 80vw;
+    width: 99%;
   }
 }

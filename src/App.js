@@ -17,13 +17,15 @@ function App() {
     <ContextPagSelected.Provider value={[PagSelected, SetPagSelected]}>
       <BrowserRouter>
         <Header />
-        <Nav />
-        <section className="container">
-          <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/Projects" element={<Projects />} />
-            <Route path="/InCreation" element={<InCreation />} />
-          </Routes>
+        <section>
+          <Nav />
+          <section className="container">
+            <Routes>
+              <Route path="/" element={<About />} />
+              <Route path="/Projects" element={<Projects />} />
+              <Route path="/InCreation" element={<InCreation />} />
+            </Routes>
+          </section>
         </section>
         <Footer />
       </BrowserRouter>

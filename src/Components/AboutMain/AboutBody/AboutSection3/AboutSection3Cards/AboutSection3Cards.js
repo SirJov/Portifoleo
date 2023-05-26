@@ -2,7 +2,7 @@ import React from "react";
 
 
 import "./AboutSection3Cards.css";
-
+ 
 import Gesseiro from "../../../../../assets/Gesseiro.webp";
 import Motoboy from "../../../../../assets/Motoboy.webp";
 import Pecuarista from "../../../../../assets/Pecuarista.webp";
