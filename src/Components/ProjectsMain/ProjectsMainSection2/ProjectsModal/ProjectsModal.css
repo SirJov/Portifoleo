@@ -194,9 +194,9 @@
 }
 @media (max-width: 600px) {
   .ProjectsModalBox1 {
-    top: 2%;
-    left: 2%;
-    right: 2%;
+    top: 0.2%;
+    left: 1%;
+    right: 1%;
   }
   .modalDivHeader p {
     font-size: 20px;
