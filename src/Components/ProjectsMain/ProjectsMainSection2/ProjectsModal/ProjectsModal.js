@@ -19,6 +19,7 @@ export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
   if (isOpen)
     return (
       <>
+        <style>{"body {position: fixed;top: 2000px;}"}</style>
         <div
           className="ProjectModalBackground"
           onClick={() => setOpenModal(false)}
@@ -45,7 +46,7 @@ export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
                 </div>
                 {InfoBack()}
               </div>
- 
+
               <div className="modalBox4">
                 <BtnLinks
                   info={objModal.FronfEnd_btnGit}
