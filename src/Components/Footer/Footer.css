@@ -1,14 +1,15 @@
-footer {
+.foooter {
   display: flex;
   align-items: flex-end;
   justify-content: center;
   align-items: center;
-  padding: 10px 10px;
-  border-top: 2px outset #4e4537;
-  margin-top: 5px;
+  padding: 20px 10px;
 }
 
-footer p {
+.foooter p {
   text-align: center;
   font-size: 15px;
+}
+footer {
+  margin-top: 20px;
 }

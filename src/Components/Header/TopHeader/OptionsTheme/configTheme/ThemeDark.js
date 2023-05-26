@@ -16,8 +16,8 @@ const Dark = `
 .ProjectsModalBox1 {background-image: linear-gradient(0deg, rgba(1, 11, 12, 0.893), rgb(0, 0, 0),rgba(1, 11, 12, 0.893));}
 .ProjectsMainSection2 {color: rgb(180, 178, 150);}
 
-footer {background-image: linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 34, 36, 0.822));}
-footer p {color: white;}
+.foooter {background-image: linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 34, 36, 0.822));}
+.foooter p {color: white;}
 `;
 
 export default Dark;

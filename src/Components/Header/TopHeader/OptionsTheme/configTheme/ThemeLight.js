@@ -14,8 +14,8 @@ const Light = `
 
 .ProjectsModalBox1 {background-image: linear-gradient(0deg,rgba(0, 152, 163, 0.767),rgb(208, 238, 255),rgba(0, 152, 163, 0.767));}
 
-footer {background-image: linear-gradient(0deg,rgba(0, 152, 163, 0.925), rgba(66, 209, 219, 0.767) );}
-footer p {color:black;}
+.foooter {background-image: linear-gradient(0deg,rgba(0, 152, 163, 0.925), rgba(66, 209, 219, 0.767) );}
+.foooter p {color:black;}
 `;
 
 export default Light;

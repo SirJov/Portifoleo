@@ -15,9 +15,9 @@
   position: fixed;
   border-radius: 10px 10px 10px 10px;
   z-index: 2000;
-  top: 2%;
-  left: 2%;
-  right: 2%;
+  top: 10%;
+  left: 20%;
+  right: 20%;
   animation: EfectDiv1 1s forwards;
   padding: 15px;
 }
@@ -133,14 +133,16 @@
   border-radius: 5px;
   padding: 10px 0px;
 }
-@media (min-width: 601) and (max-height: 650px) {
+@media (max-height: 650px) {
   .ProjectsModalBox1 {
     display: flex;
     align-items: center;
   }
+
   .modalDivBody {
     display: flex;
     align-items: center;
+    gap: 20px;
   }
   .ModalContainer {
     font-size: 13px;
@@ -176,8 +178,26 @@
   .modalBox3 {
     display: none;
   }
+  .modalBox4 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    min-width: 110px;
+  }
+}
+@media (max-width: 1024px) {
+  .ProjectsModalBox1 {
+    top: 10%;
+    left: 10%;
+    right: 10%;
+  }
 }
 @media (max-width: 600px) {
+  .ProjectsModalBox1 {
+    top: 2%;
+    left: 2%;
+    right: 2%;
+  }
   .modalDivHeader p {
     font-size: 35px;
   }
