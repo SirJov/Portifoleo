@@ -7,7 +7,6 @@ import "./ProjectsModal.css";
 export function ProjectsModal({ isOpen, objModal, setOpenModal }) {
   function InfoBack() {
     if (objModal.projectDescriptionCreateProject2) {
-      console.log(typeof objModal.projectDescriptionCreateProject2);
       return (
         <div>
           <p>{objModal.projectDescriptionCreateProject2}</p>

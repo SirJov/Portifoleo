@@ -89,7 +89,7 @@
   justify-content: center;
 }
 .modalBox2 p {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .modalBox2 div:first-of-type {
   text-align: center;
@@ -184,24 +184,25 @@
 @media (max-width: 1024px) {
   .ProjectsModalBox1 {
     top: 10%;
-    left: 10%;
-    right: 10%;
+    left: 5%;
+    right: 5%;
   }
 }
 @media (max-width: 600px) {
   .ProjectsModalBox1 {
-    top: 0.2%;
+    top: 1%;
     left: 1%;
     right: 1%;
+    bottom: 1%;
   }
   .modalDivHeader p {
     font-size: 20px;
   }
   .bloco {
     margin-left: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     height: 100px;
-    width: 200px;
+    width: 160px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px rgb(173, 255, 156);
   }
@@ -210,7 +211,7 @@
   }
   .descri {
     position: inherit;
-    margin: 10px 20px;
+    margin: 5px 20px;
   }
   .modalBox1 {
     display: flex;
