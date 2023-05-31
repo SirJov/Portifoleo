@@ -8,7 +8,7 @@
   left: 0px;
   right: 0px;
   z-index: 1000;
-  background-color: rgba(63, 63, 63, 0.877);
+  background-color: rgba(63, 63, 63, 0.63);
 }
 
 .ProjectsModalBox1 {
@@ -29,7 +29,7 @@
 .modalDivHeader {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .modalDivHeader div:first-of-type {
@@ -73,13 +73,13 @@
   box-shadow: 2px 2px 2px rgb(173, 255, 156);
 }
 .descri {
-  text-shadow: 2px 2px 2px #000000;
   position: Absolute;
-  top: 200px;
+  top: 150px;
   left: 250px;
   right: 20px;
-  color: rgb(0, 236, 59);
-  -webkit-text-stroke: 0.2px rgb(0, 59, 15);
+  color: rgb(0, 255, 115);
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000000;
 }
 .modalBox2 {
   display: flex;

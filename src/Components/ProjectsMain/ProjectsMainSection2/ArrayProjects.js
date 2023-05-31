@@ -15,10 +15,10 @@ const CardsProjects = [
     gif: LitlleFaceGif, //gif 800x600 do projeto ou img com a mesma resoluçao
     title: "Litlle Face", //nome do projeto
 
-    projectDescription: "Mini rede social com validaçao de Token", //pequeno resumo da funcionalidade do projeto
+    projectDescription: "Litlle face, uma mini rede social !! hehe", //pequeno resumo da funcionalidade do projeto
     projectDescription2: "React, MongoDb...", //previa das tecnologias usadas
     projectDescription3:
-      "Com Litlle face você pode criar uma conta, customizar seu perfil, criar uma publicação, dar likes e comentar publicações de outras pessoas como em uma rede social!!.", //texto completo das funcionalidades
+      "Com Litlle face você pode criar uma conta, customizar seu perfil, criar uma publicação, dar likes e comentar publicações de outras pessoas como em uma rede social 'Grandee'!! haha.", //texto completo das funcionalidades
 
     projectDescriptionCreateProject:
       "Projeto ciado para consolidar e praticar React e seus Hooks como o Context Api, useEfects entre outros", //texto completo sobre como foi criado o projeto
@@ -26,7 +26,7 @@ const CardsProjects = [
       "Api Rest, pratiquei bastante as funcionalidades do mongoose pois nao tinha mexido com banco de dados não-relacional orientado a documentos, e sistema de loguin com validação de tokens",
 
     usedInProject_front:
-      "Front-end feito com: React, Router-dom, Axios, HTML, CSS.", //todas as tecnologias usadas
+      "Front-end feito com: React, React-Router-dom, Axios, HTML, CSS.", //todas as tecnologias usadas
     usedInProject_back:
       "Back-end feito com: Node, Express, MongoDb, Mongoose, JSON Web Token, bCrypt.",
 
