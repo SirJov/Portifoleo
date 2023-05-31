@@ -17,7 +17,7 @@ export function AboutSection1() {
           <br />
           <p>
             Estarei falando um pouco sobre mim, e demostrando meus conhecimentos
-            e progressos na programação.
+            na programação.
           </p>
           <img id="Borda1" className="imgBordas" src={Borda1} />
         </div>

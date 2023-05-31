@@ -1,8 +1,7 @@
 import React from "react";
 
-
 import "./AboutSection3Cards.css";
- 
+
 import Gesseiro from "../../../../../assets/Gesseiro.webp";
 import Motoboy from "../../../../../assets/Motoboy.webp";
 import Pecuarista from "../../../../../assets/Pecuarista.webp";
@@ -11,8 +10,6 @@ import Carpintaria from "../../../../../assets/Carpintaria.webp";
 import Estoquista from "../../../../../assets/Estoquista.webp";
 
 export function AboutSection3Cards() {
-
-
   const ArrayExperiencia = [
     {
       img: Gesseiro,
@@ -42,7 +39,7 @@ export function AboutSection3Cards() {
     {
       img: Estoquista,
       h5: "Estoquista",
-      msg: "Função que exerço atualmente em São Bernardino-SC, verificando e organizando o estoque de uma loja de produtos elétricos e materiais de construção. Também trabalhei no centro de Curitiba em uma loja de CFTV como auxiliar de estoque até ser promovido a vendedor.",
+      msg: "Experiencia em logística, com registro em carteira, sou familiarizado com organização e conferencia de estoque.",
     },
   ];
 
